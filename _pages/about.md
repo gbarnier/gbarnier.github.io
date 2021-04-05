@@ -39,20 +39,3 @@ permalink: /about/
   </body>
 </html>
 
-
-
-
-<!-- List -->
-<!-- * Item 1
-* Item 2
-* Item 3
-* Item 4
-    * Nest item 1
-    * Nest item 2
-
-1. Item 1
-1. Item 2
-1. Item 3
-1. Item 4
-    * Nest item 1
-    * Nest item 2 -->
