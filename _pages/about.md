@@ -6,7 +6,7 @@ permalink: /about/
 
 <html>
   <head>
-    <title>About</title>
+   <title>About</title>
   </head>
   <body>
    <img src="/images/stairs_rio_c.png" style="float: right; width: 200px;height: 350; display: inline;"/> 
