@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Machine Learning Projects
+title: ML projects
 share: false
 permalink: /ml_projects/
 ---
