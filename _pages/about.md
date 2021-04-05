@@ -36,5 +36,11 @@ permalink: /about/
    <br />
    And if you are wondering, I took that picture on the <a href="https://en.wikipedia.org/wiki/Escadaria_Selarón"> Escadaria Selarón</a> in Rio de Janeiro, Brazil.
    </p>
-  </body>
+  <ul>
+  <li>Example 1</li>
+  <li>Example 2</li>
+  <li>Example 3</li>
+  </ul>
+
+</body>
 </html>
