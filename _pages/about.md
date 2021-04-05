@@ -9,7 +9,7 @@ permalink: /about/
     <title>About</title>
   </head>
   <body>
-   <img src="images/stairs_rio_c.png" style="float: right; width: 200px;height: 350; display: inline;"/>
+   <img src="/images/stairs_rio_c.png" style="float: right; width: 200px;height: 350; display: inline;"/>
    <p>
    <li>I am Guillaume Barnier, a Ph.D candidate in the Stanford Exploration Project (<a href="https://sep.sites.stanford.edu">SEP</a>) group, within the Department of Geophysics at Stanford University.
    <li>Under the supervision of Prof. <a href="https://wiki.seg.org/wiki/Biondo_Biondi">Biondo Biondi</a>, I design new
