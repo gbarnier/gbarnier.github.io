@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-05T13:53:27+02:00</updated><id>/atom.xml</id><title type="html">HOME</title><subtitle>This is a description of my awesome site.</subtitle><entry><title type="html">AI for healthcare: Predicting brain tissue damage for stroke patients using deep supervised learning and CTP data</title><link href="/ml_projects/ctp/" rel="alternate" type="text/html" title="AI for healthcare: Predicting brain tissue damage for stroke patients using deep supervised learning and CTP data" /><published>2021-02-01T00:00:00+01:00</published><updated>2021-02-01T00:00:00+01:00</updated><id>/ml_projects/ctp</id><content type="html" xml:base="/ml_projects/ctp/">&lt;p&gt;&lt;img src=&quot;/images/ctp_workflow_resized.PNG&quot; width=&quot;1000&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt; We use &lt;b&gt;computed tomography perfusion&lt;/b&gt; (CTP) data combined with a &lt;b&gt;supervised deep learning&lt;/b&gt; algorithm to predict voxelwise blood-flow properties within the brain for ischemic stroke patients&lt;/font&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt; We extract features from the density/time curves of each voxel with a supervised deep learning model based on 1D convolutional layers&lt;/font&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt; We successfully apply our method on a dataset provided by the Stanford University School of Medicine and show its potential at recovering the main hemodynamic properties of the brain tissues&lt;/font&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ischemic-strokes&quot;&gt;Ischemic strokes&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stroke&quot;&gt;Stroke&lt;/a&gt; is the leading cause of disability and the third leading cause of death in the United States (more information &lt;a href=&quot;http://www.strokecenter.org/patients/about-stroke/what-is-a-stroke/&quot;&gt; here&lt;/a&gt;). The most common type of strokes, referred to as &lt;strong&gt;ischemic strokes&lt;/strong&gt;, are caused by a blockage in an artery that supplies blood to the brain. The blockage reduces the blood flow and oxygen to the brain, leading to irreversibly infarcted tissues (&lt;strong&gt;core&lt;/strong&gt;) and severely ischemic, but potentially salvageable, tissues (&lt;strong&gt;penumbra&lt;/strong&gt;). If circulation is not restored quickly, &lt;strong&gt;brain damage can be permanent&lt;/strong&gt;. Consequently, there is a small time window (less than nine hours after the onset of the stroke) during which an accurate diagnostic must be made and therapy administered (Konstas et al. 2009).&lt;/p&gt;
+
+&lt;h3 id=&quot;ctp-imaging&quot;&gt;CTP imaging&lt;/h3&gt;
+&lt;p&gt;CTP is commonly used for imaging a wide range of diseases, such as stroke, brain tumors, epilepsy, infection, etc. In this project, we are mainly focused on the utility of CTP in stroke imaging, whereby CTP plays a critical role in the accurate diagnosis, treatment decision, and prognosis of acute stroke.&lt;/p&gt;
+
+&lt;p&gt;The data acquisition is conducted as follows. A small bolus of iodinated contrast is injected intravenously into the patient. As it travels through the cerebral circulation, the contrast modifies the brain tissue density, which can be monitored with CT scans acquired every few seconds and provide valuable information about &lt;strong&gt;capillary-level hemodynamics&lt;/strong&gt; (i.e., how easily the blood flows through tissues) within the brain. Therefore, a CTP dataset can be seen as a 4D dataset because it consists in a collection of 3D CT scans acquired over time.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-do-ctp-data-look-like&quot;&gt;What do CTP data look like?&lt;/h3&gt;
+&lt;p&gt;Let’s now take a look at real CTP data by examining the figure below. Each panel displays the same axial slice from a stroke patient extracted at different times during the acquisition process. Bright/dark colors indicate tissues with higher/lower density (measured in &lt;a href=&quot;https://en.wikipedia.org/wiki/Hounsfield_scale&quot;&gt; Hounsfield units&lt;/a&gt;), respectively.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For t &amp;lt; 20 [s], the bolus has not reached the brain yet, and no clear density contrast can be observed within the brain tissues (the high-density halo surrounding the tissues corresponds to the patient’s skull).&lt;/li&gt;
+  &lt;li&gt;From 20 [s] &amp;lt; t &amp;lt; 45 [s], the bolus reaches the brain and perfuses the tissues (arterial phase), which can clearly be identified from the CT images.&lt;/li&gt;
+  &lt;li&gt;Additionally,from 30 [s] &amp;lt; t &amp;lt; 40 [s], we observe higher density values in the brain’s right hemisphere (left side of the image) compared to the left hemisphere. This could potentially indicate that the blood is having more difficulty flowing through this region, and thus the presence of damaged tissues.&lt;/li&gt;
+  &lt;li&gt;For t &amp;gt; 45 [s] (not shown here), the bolus is washed out of the brain (venous phase).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ct_perfusion_sequence.png&quot; width=&quot;2000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We now have a better intuition on why CTP data can be useful for detecting stroke lesions. If certain brain tissues are damaged, the blood vessels’ circulation will be reduced (or even blocked). Hence, our idea is to design a deep learning algorithm that will learn how to extract blood-flow information from these data and accurately characterize the damaged zones in the brain.&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Currently the raw CTP datasets are processed by commercial software packages to generate perfusion parametric 3D maps (CBV, CBF, TMAX). These maps are then interpreted by a radiologist to delineate (i.e., segment) the core from the penumbra. However, these packages are not standardized (thus making the results unreliable) and expensive (thus limiting CTP’s utility).&lt;/p&gt;
+
+&lt;p&gt;We propose to mitigate these issues by developing a robust &lt;strong&gt;supervised deep learning&lt;/strong&gt; (DL) model, which we hope will have a &lt;strong&gt;profound impact&lt;/strong&gt; on stroke imaging by (1) making the results more &lt;strong&gt;reliable&lt;/strong&gt; and (2) by making the CTP technique more widely &lt;strong&gt;available&lt;/strong&gt; and &lt;strong&gt;equitable&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our algorithm uses 4D CTP data as input and predicts a 3D image corresponding to the value of a hemodynamic parameter referred to as TMAX at every position (voxel) of the brain. This parameter represents the delayed arrival of the contrast bolus and guides the radiologist to accurately predict and delineate the extent of the core and penumbra. &lt;strong&gt;Higher TMAX values may indicate the presence of damaged tissues&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-approach&quot;&gt;Our approach&lt;/h3&gt;
+&lt;p&gt;While many authors have successfully applied DL methods on 3D CT data for image segmentation or classification (Barros et al. 2020; Park et al. 2019), our task here is of different nature because most of the useful hemodynamics information for predicting TMAX is carried by the time axis of the data.&lt;/p&gt;
+
+&lt;p&gt;In the first phase of our project, we choose to tackle this regression problem by casting it as a 1D time-series analysis (Kiranyaz et al. 2021). Similarly to the main software packages, we process the density curves (i.e., the variation of the density value at a given voxel as a function of time) of &lt;strong&gt;each voxel independently&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We show an example of such density curves in the figures below. The left panel shows an axial slice during a CTP acquisition. The colored circles indicate the extraction location of the different curves shown in the right panel. The dark blue curve is referred to as the arterial input function (AIF). It shows the density variation observed at a voxel located in the region first reached by the bolus, close to the middle cerebral artery (MCA).&lt;/p&gt;
+
+&lt;p float=&quot;left&quot;&gt;
+  &lt;img src=&quot;/images/depth_slice_annotated.pdf&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;/images/aif_curves.pdf&quot; width=&quot;350&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Following our “1D approach”, one training example will thus consists of one density curve of 80 time steps (our data) with its labelled TMAX value computed by an available software (and assumed as ground truth for now). We extract features from the time signals by using an architecture composed of 1D convolutional layers, pooling layers, and fully connected layers as shown in the schematic diagram below. For more details on our architecture (and choice of hyperparameters), check out our code &lt;a href=&quot;https://github.com/gbarnier/CT-perfusion&quot;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/architecture.png&quot; width=&quot;1000&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pre-procssing-steps&quot;&gt;Pre-procssing steps&lt;/h3&gt;
+&lt;p&gt;We found the pre-processing steps for CTP data to be very challenging. The additional difficulty compared to 2D or 3D CT datasets stems from the time component. As these are inherently longer scans, motion in both spatial and time domains are very challenging to correct. A slightly suboptimal co-registration can deteriorate the density/time curves for a given voxel, which would greatly affect any algorithm’s performance. Again, you can find the detailed steps in our &lt;a href=&quot;/papers/final_report.pdf&quot;&gt;report&lt;/a&gt; and the code on our &lt;a href=&quot;https://github.com/gbarnier/CT-perfusion&quot;&gt;repository&lt;/a&gt;.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;our-results-so-far&quot;&gt;Our results so far&lt;/h3&gt;
+&lt;p&gt;We show the efficacy of our method on a CTP dataset provided by the Stanford University
+&lt;a href=&quot;http://med.stanford.edu&quot;&gt;School of Medicine&lt;/a&gt;, comprised of approximately 400 anonymous stroke patients.&lt;/p&gt;
+
+&lt;p&gt;The panels below show four axial (depth) sections of TMAX maps computed by one of the available software packages (bottom row) and our prediction on one of the patients from the test set (top row). After training on approximately 2.5MM examples (~8 patients), we managed to recover the low-wavenumber components (the trends) of the software output. Even though the results suffer from noise due to the lack of spatial information fed to the network, the main features have been captured by “learning” solely from the time axis of the CTP dataset.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/results.png&quot; width=&quot;2000&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;next-steps&quot;&gt;Next steps&lt;/h3&gt;
+&lt;p&gt;In this first phase of our project, we showed that the main source of information contained in the CTP dataset could be &lt;strong&gt;encoded&lt;/strong&gt; and &lt;strong&gt;extracted&lt;/strong&gt; just from the &lt;strong&gt;time axis&lt;/strong&gt;. We developed a computationally and data-efficient solution that allows to recover the main trends of TMAX maps. We purposely chose to neglect the spatial relationship between adjacent voxels as a “first order” solution but we believe these results can be greatly improved by adding a &lt;strong&gt;spatial encoding sequence&lt;/strong&gt; into our workflow, and we are &lt;strong&gt;currently working&lt;/strong&gt; on such implementation. Additionally, we also want test our algorithm’s ability to perform well when the number of scans is reduced during the acquisition process, thereby limiting the patient’s exposure to radiations.&lt;/p&gt;
+
+&lt;h3 id=&quot;numerical-implementation&quot;&gt;Numerical implementation&lt;/h3&gt;
+&lt;p&gt;Our numerical optimization code is implemented using the PyTorch open source machine learning library based on the Torch library, and is accessible on our project Github &lt;a href=&quot;https://github.com/gbarnier/CT-perfusion&quot;&gt;repository&lt;/a&gt;. Our training process was conducted on four V100 Tesla GPU cards.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-team&quot;&gt;The team&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt;&lt;a href=&quot;https://www.linkedin.com/in/guillaume-barnier/&quot;&gt;Guillaume Barnier&lt;/a&gt;&lt;/font&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt;&lt;a href=&quot;https://www.linkedin.com/in/ettore-biondi/&quot;&gt;Ettore Biondi&lt;/a&gt;&lt;/font&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt;&lt;a href=&quot;https://www.linkedin.com/in/greg-forbes/&quot;&gt;Gregory Forbes&lt;/a&gt;&lt;/font&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;font size=&quot;4&quot;&gt;&lt;a href=&quot;https://profiles.stanford.edu/elizabeth-tong&quot;&gt;Elizabeth Tong (Principal Investigator)&lt;/a&gt;&lt;/font&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+&lt;p&gt;Check out our project &lt;a href=&quot;https://github.com/gbarnier/CT-perfusion&quot;&gt;&lt;b&gt;repository&lt;/b&gt;&lt;/a&gt;, download our &lt;a href=&quot;/papers/final_report.pdf&quot;&gt;&lt;strong&gt;report&lt;/strong&gt;&lt;/a&gt; and watch the 4-minute &lt;a href=&quot;https://drive.google.com/file/d/1PJL0OWvHQYr5AuTqwCw-Jhay1MgSL4nG/view?usp=sharing&quot;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt; summarizing our work.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-useful-links&quot;&gt;Other useful links&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VnpqylFYtqI&quot;&gt;A pratical Introduction to CT&lt;/a&gt; by Rajesh Bayana&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fEPVXmRuR70&amp;amp;t=2164s&quot;&gt;Introduction to CT Head: Approach and Principles&lt;/a&gt; by Rajesh Bayana&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QIAI6KOwKII&amp;amp;t=8s&quot;&gt;What is a stroke&lt;/a&gt; by Khan Academy&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qCvV11R2lgg&quot;&gt;Ischemic stroke&lt;/a&gt; by Khan Academy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Barros, R. S., Tolhuisen, M. L., Boers, A. M., Jansen, I., Ponomareva, E., Dippel, D. W., van derLugt, A., van Oostenbrugge, R. J., van Zwam, W. H., Berkhemer, O. A., et al., 2020, Automatic segmentation of cerebral infarcts in follow-up computed tomography images with convolutional neural networks: Journal of neurointerventional surgery,12, no. 9, 848–852&lt;/li&gt;
+  &lt;li&gt;Kiranyaz, S., Avci, O., Abdeljaber, O., Ince, T., Gabbouj, M., and Inman, D. J., 2021, 1d convo-lutional neural networks and applications: A survey: Mechanical Systems and Signal Processing,151, 107398&lt;/li&gt;
+  &lt;li&gt;Konstas, A., Goldmakher, G., Lee, T.-Y., and Lev, M., 2009, Theoretic basis and technical implementations of ct perfusion in acute ischemic stroke, part 1:  theoretic basis: American Journal of Neuroradiology, 30, no. 4, 662–668&lt;/li&gt;
+  &lt;li&gt;Park, A., Chute, C., Rajpurkar, P., Lou, J., Ball, R. L., Shpanskaya, K., Jabarkheel, R., Kim, L. H.,McKenna, E., Tseng, J., et al., 2019, Deep learning–assisted diagnosis of cerebral aneurysmsusing the headxnet model: JAMA network open,2, no. 6, e195600–e195600.&lt;/li&gt;
+  &lt;li&gt;Ukmar, M., Degrassi, F., Pozzi Mucelli, R. A., Neri, F., Mucelli, F. P., and Cova, M. A., 2017, Perfusion ct in acute stroke: effectiveness of automatically-generated colour maps: The British journal of radiology, 90, no. 1072, 20150472.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h3&gt;
+&lt;p&gt;We thank our principal investigator &lt;strong&gt;Dr. Elizabeth Tong&lt;/strong&gt; for her amazing guidance, knowledge, expertise, and positive energy. We also thank Pranav Rajpurkar, Eric Loreaux, Ashwin Agrawal, Fantine Huot, Bob Clapp, and Stuart Farris for their help and advice.&lt;/p&gt;</content><author><name></name></author><category term="ml_projects" /><summary type="html">After a stroke, some brain tissues may still be salvageable but we have to move fast: find out how we propose to improve the diagnostic/treatment process.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/%7B%22teaser%22=%3E%22ctp_workflow_resized.PNG%22%7D" /><media:content medium="image" url="/%7B%22teaser%22=%3E%22ctp_workflow_resized.PNG%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My project on reinforcement learning</title><link href="/ml_projects/rl/" rel="alternate" type="text/html" title="My project on reinforcement learning" /><published>2021-01-04T00:00:00+01:00</published><updated>2021-01-04T00:00:00+01:00</updated><id>/ml_projects/rl</id><content type="html" xml:base="/ml_projects/rl/"></content><author><name></name></author><category term="ml_projects" /><summary type="html">Still work in progress, come back in a few weeks!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/%7B%22teaser%22=%3E%22atari.pdf%22%7D" /><media:content medium="image" url="/%7B%22teaser%22=%3E%22atari.pdf%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
