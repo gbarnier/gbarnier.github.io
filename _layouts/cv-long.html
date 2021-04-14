@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- Header -->
+    <head>
+
+        <title>Guillaume's CV</title>
+
+        {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+        {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+        {% if page.author %}
+          {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+        {% endif %}
+        {% include open-graph.html %}
+
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+        <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+        <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/cv_new.css">
+        <link rel="icon" type="image/x-icon" href="/images/atari.png" />
+        <meta charset="utf-8" />
+        <style>
+            .publication-list li{
+                font-size:18px;
+                margin-left: 70px;
+                text-align: justify;
+                font-family: Calibri;
+            }
+        </style>
+    </head>
+
+    <body id="js-body" style="background-color: #F2F3F4;">
+        {% include browser-upgrade.html %}
+        {% include header.html %}
+        {% include navigation-sliding.html %}
+        <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="{{ site.url }}/js/main.js"></script>
+
+    <div class="page" style="text-align: justify; margin-left:100px; width: 900px">
+
+        <!-- Header -->
+        <div>
+            <h4 style="margin-bottom: -0.4em; margin-left: 50px;">GUILLAUME BARNIER</h4>
+            <!-- <h5 style = "text-align:center; font-size: 16px; font-family: Calibri" >Phone: +1-720-838-1835 &#8226; Email: barnier@gmail.com &#8226; Website: <a href="https://gbarnier.github.io" target="_blank">gbarnier.github.io</a></h5>             -->
+            <p style="margin-left: 70px; margin-bottom: -0.8em; font-size:18px;font-family: Calibri;">Phone: +1-720-838-1835 &#8226; Email: <a href="mailto: barnier@gmail.com" target="_blank">barnier@gmail.com</a> &#8226; Website: <a href="https://gbarnier.github.io" target="_blank">gbarnier.github.io</a> &#8226; GitHub: <a href="https://github.com/gbarnier" target="_blank">github.com/gbarnier</a></p>
+        </div>
+
+        <!-- Summary -->
+        <div>
+            <h5 style="margin-bottom: -0.8em; margin-left: 50px; font-weight: bold;font-size: 20px;">SUMMARY</h5>
+            <p style="margin-left: 70px; margin-bottom: -0.8em;">
+                > Expert in machine learning, scientific computing, and optimization of large-scale nonlinear inverse problems<br/>
+                > Strong interest and knowledge in reinforcement learning algorithms<br/>
+                > Excellent high-performance computing (HPC) skills with deep programming knowledge of graphics processing units (GPU) in C++/CUDA<br/>
+                > Won the 2019 “Best Paper Presented by a Student at the Annual Meeting” <a href="https://library.seg.org/doi/10.1190/segam2019-3216866.1" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000 ">award</a> from the Society of Exploration Geophysicists (SEG)
+            </p>
+        </div>
+
+        <!-- Academic history -->
+        <div>
+            <h5 style="margin-bottom: -0.8em; margin-left: 50px; font-weight: bold">EDUCATION</h5>
+            <p style="margin-left: 70px; margin-bottom: -0.8em;">
+                Ph.D. in Geophysics, Stanford University (GPA: 3.960) - Exp. 2021<br/>
+                MSc in Geophysics, Colorado School of Mines (GPA: 4.000) - 2013<br/>
+                MSc in Electrical Engineering, Télécom Paris University (GPA: 3.600) - 2007
+            </p>
+        </div>
+
+        <!-- Technical skills -->
+        <div>
+            <h5 style="margin-bottom: -0.8em; margin-left: 50px; font-weight: bold">MACHINE LEARNING SKILLS</h5>
+            <p style="margin-left: 70px; margin-bottom: -0.8em;">
+                ML coursework: <b>Reinforcement Learning</b> (<a href="http://web.stanford.edu/class/cs234/index.html" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000">CS 234</a>), <b>Deep Learning</b> (<a href="https://cs230.stanford.edu" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000 ">CS 230</a>), and <b>Machine Learning</b> (<a href="http://cs229.stanford.edu" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000 ">CS 229</a>)<br/>
+                Mathematics coursework: Stochastic Processes (MATH 136) and Stochastic Differential Equations (MATH 236)<br/>
+                Programming: C++, CUDA, Fortran, pybind11, Unix, MPI, Dask, HTML, CSS<br/>
+                Deep Learning Frameworks: Python, PyTorch, NumPy,some use of Keras and TensorFlow
+            </p>
+        </div>
+
+        <!-- Research experience -->
+        <div style="margin-bottom: -1.8em;">
+            <h5 style="margin-bottom: -1.8em; margin-left: 50px; font-weight: bold">
+                RESEARCH EXPERIENCE<br/>
+            </h5>
+            <!-- Machine learning -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: bold;">
+                Deep Learning, Computer Vision, and Healthcare
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                Radiology and Neuroimaging Department - Stanford School of Medicine<br/>
+                Jan. 2021 - Present<br/>
+                Research assistant (Prof. E. Tong)
+            </h6>
+
+            <p style="margin-left: 90px; margin-bottom: -1.8em; line-height:1.4">
+                > Initiated and led a <a href="/ctp-project" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000">project</a> to predict brain tissue damage for ischemic stroke patients using deep supervised learning based on convolutional neural nets (CNN) and 4D computed tomography perfusion (CTP) data<br/>
+                > Developed an approach to bypass the use of costly and potentially unreliable commercial software packages<br/>
+                > Method may have profound impact on stroke imaging by improving diagnostic reliability and making CTP technique more widely available and equitable
+            </p>
+            <!-- Geophysical imaging -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: bold;">
+                Geophysical Seismic Imaging
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                Stanford Exploration Project - Stanford Department of Geophysics<br/>
+                Sep. 2013 - Present<br/>
+                Doctoral Researcher (Prof. B. Biondi)
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -1.8em; line-height:1.4; font-size: 17;">
+                > Conceived innovative industry-impactful <a href="/fwime" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000">algorithm</a> to produce accurate images of the Earth’s subsurface using seismic waves <br/>
+                > Created a new robust gradient-descent optimization scheme combined with the variable projection method to mitigate the presence of spurious local minima inherent to full waveform inversion (FWI), a challenging high-dimension prominent seismology problem<br/>
+                > Developed an industry-quality finite-difference code implemented in C++/CUDA using GPUs to enhance computational efficiency for large-scale 3D field applications (tens of terabytes of data)<br/>
+                > Successfully applied Ph.D. algorithm on a deep-water node-acquisition 3D field dataset from the Gulf of Mexico<br/>
+                > Co-led a team of students for the development of an advanced Python optimization library for solving large-scale inverse problems
+            </p>
+            <!-- Tsunamis -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: bold;">
+                Numerical Methods for Wave Propagation
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px; font-weight: normal;">
+                Center for Induced and Triggered Seismicity - Stanford Department of Geophysics<br/>
+                Jan. 2015 - Jan. 2017<br/>
+                Research assistant (Prof. E. Dunham)
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -0.8em; line-height:1.4; font-size: 17;">
+                > Developed an early-warning tsunami modeling and prediction algorithm using a data assimilation technique with Kalman filters<br/>
+                > Applied method to a 2D tsunami model based on dynamic rupture simulations of the 2011 Tohoku earthquake<br/>
+                > Accurately reconstructed tsunami wavefield prior to wave arrival at the coast
+            </p>
+
+        <!-- Industry experience -->
+        <div style="margin-bottom: -1.0em;">
+            <h5 style="margin-bottom: -1.8em; margin-left: 50px; font-weight: bold">
+                INDUSTRY EXPERIENCE<br/>
+            </h5>
+
+            <!-- Industry partnerships -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>Self-Initiated Industry Partnerships</b>
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                Nov. 2018 - Jan. 2021<br/>
+                Seismic Imaging Research Consultant
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -1.8em; line-height:1.4; font-size: 17;">
+                > Successfully approached and convinced management of three major oil companies to invest in personal imaging algorithm and deployed solution on companies’ computing infrastructures<br/>
+            </p>
+
+            <!-- BP -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>BP America - Houston, TX, USA</b><br/>
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                Summers 2016 and 2017<br/>
+                Seismic Imaging Research Scientist
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -1.8em; line-height:1.4; font-size: 17;">
+                > Provided research team with expertise on personal Ph.D. project<br/>
+                > Deployed algorithm on BP’s HPC system<br/>
+                > Showed value and potential business impact for improving images in complex geological settings
+            </p>
+
+            <!-- Chevron -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>Chevron - San Ramon, CA, USA</b><br/>
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                Jun. 2015 - Sep. 2015<br/>
+                Seismic Imaging Research Scientist
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -1.8em; line-height:1.4; font-size: 17;">
+            > Improved and applied a Bayesian geophysical uncertainty estimation technique based on the Metropolis-Hastings for oil reserve quantification
+            </p>
+
+            <!-- Total -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>Total - Pau, France</b><br/>
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                May 2012 - Sep. 2012<br/>
+                Seismic Imaging Research Scientist
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -1.8em; line-height:1.4; font-size: 17;">
+                > Analyzed and identified an optimal reservoir-characterization solution (among three software packages) adequate to the team’s needs and budget, and convinced management committee to follow selection recommendation
+            </p>
+
+            <!-- JP Morgan -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>J.P. Morgan - London, UK</b><br/>
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -0.8em; font-size: 16px;font-weight: normal;">
+                Jun 2007 - May 2010<br/>
+                Fixed Income Hedge Fund Sales and Structurer
+            </h6>
+            <p style="margin-left: 90px; margin-bottom: -0.8em; line-height:1.4; font-size: 17; font-family: Calibri;">
+                > Provided pricing, trade executions, and financial advice on interest rates derivative products to major investment firms including Pacific Investment Management Company (PIMCO) <br/>
+                > Took the initiative to develop a novel interest-rate swaps modeling code with improved flexibility and accuracy (compared to available commercial package), which became the team’s primary tool for asset pricing
+            </p>
+        </div>
+
+        <!-- Achievements and awards -->
+        <div style="margin-bottom: -1.0em;">
+            <h5 style="margin-bottom: -1.8em; margin-left: 50px; font-weight: bold">
+                AWARDS AND ACHIEVEMENTS<br/>
+            </h5>
+
+            <!-- Industry partnerships -->
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>Academics</b><br/>
+            </h6>
+            <h6 style="margin-left: 90px; margin-bottom: -1.6em; font-weight: normal;font-family: Calibri;">
+                2019 <a href="https://sep.sites.stanford.edu/guillaume-barnier-receives-award-best-student-paper-presented-seg-2019-annual-meeting" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000">Award</a> for Best Paper Presented by a Student at the Society of Exploration Geophysicists (SEG)<br/>
+                2013 Colorado School of Mines Mendenhall award for outstanding academic achievement<br/>
+                2012 Colorado School of Mines Hess Corp Fellowship
+            </h6>
+            <h6 style="margin-left: 70px; margin-bottom: -2.0em;font-weight: normal;">
+                <b>Trail-running</b><br/>
+            </h6>
+            <h6 style="margin-left: 90px; margin-bottom: -1.0em; font-weight: normal;font-family: Calibri;">
+                2018 <a href="https://www.spartanrace.fr/en/race/detail/3154/results" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000">First place</a> overall, Spartan Race Diablo Grande Super Open<br/>
+                2018 First place overall, Inside Trail Pacifica Foothills Trail Half Marathon<br/>
+                2015 <a href="http://www.coastaltrailruns.com/results/d/d_results_15.htm" target="_blank" style="text-decoration: none;border-bottom: 1px dotted #000">First place</a> overall, Mount Diablo Coastal Trail Runs Half Marathon
+            </h6>
+        </div>
+
+        <div>
+            <h5 style="margin-bottom: -0.8em; margin-left: 50px; font-weight: bold">LANGUAGES</h5>
+            <p style="margin-left: 90px; margin-bottom: -0.8em; line-height:1.4; font-size: 17;">
+                French, English, Spanish (fluent), Hebrew (beginner), Bahasa Indonesia (survival level)<br/>
+            </h6>
+        </div>
+
+        <!-- Publications -->
+        <div>
+            <h5 style="margin-bottom: 1.5em; margin-left: 50px; font-weight: bold">PUBLICATIONS</h5>
+            <p style="margin-left: 100px; margin-bottom: -1.0em; font-size: 20px;font-family: Calibri">
+                <!-- <ol style="margin-left: 70px; margin-bottom: -1.0em; font-size: 30px; font-family: Calibri"> -->
+                <ol class="publication-list">
+                <li> E. Biondi, G. Barnier, R. G. Clapp, F. Picetti, S. Farris, An object-oriented optimization framework for large-scale inverse problems: Computers & Geosciences (submitted).</li>
+                <li> Barnier, G. and Biondi, E., 2020. Full waveform inversion by model extension using a model-space multi-scale approach. In SEG Technical Program Expanded Abstracts 2020 (pp. 646-650). Society of Exploration Geophysicists.</li>
+                <li> Biondi, E. and Barnier, G., 2020. Elastic-parameter estimation by combining full-waveform inversion by model extension and target-oriented elastic inversion. In SEG Technical Program Expanded Abstracts 2020 (pp. 735-739). Society of Exploration Geophysicists.</li>
+                <li> <b>Barnier, G.</b>, Biondi, E. and Clapp, R., 2019. Waveform inversion by model reduction using spline interpolation. In SEG Technical Program Expanded Abstracts 2019 (pp. 1400-1404). Society of Exploration Geophysicists. <b>Won award for Best Paper Presented by a Student</b>.</li>
+                <li> Yang, Y., Dunham, E.M., Barnier, G. and Almquist, M., 2019. Tsunami wavefield reconstruction and forecasting using the ensemble Kalman filter. Geophysical Research Letters, 46(2), pp.853-860.</li>
+                <li> Barnier, G., Biondi, E. and Biondi, B., 2018. Full waveform inversion by model extension. In SEG Technical Program Expanded Abstracts 2018 (pp. 1183-1187). Society of Exploration Geophysicists.</li>
+                <li> Biondi, E., Biondi, B. and Barnier, G., 2018. Target-oriented elastic full-waveform inversion through extended-migration redatuming. In SEG Technical Program Expanded Abstracts 2018 (pp. 1228-1232). Society of Exploration Geophysicists.</li>
+                <li> Barnier, G., Biondi, E. and Biondi, B., 2018, June. A Modified Approach for Tomographic Full Waveform Inversion Using Variable Projection. In 80th EAGE Conference and Exhibition 2018 (Vol. 2018, No. 1, pp. 1-5). European Association of Geoscientists & Engineers.</li>
+                <li>G. Barnier, E. Biondi, and B. Biondi, 2017, A modified approach to tomographic full-waveform inversion: SIAM Imaging Symposium, Rice University, Houston</li>
+                <li> Biondi, E., Barnier, G. and Biondi, B., 2017. Preconditioned elastic full-waveform inversion with approximated Hessian. In SEG Technical Program Expanded Abstracts 2017 (pp. 1654-1658). Society of Exploration Geophysicists.</li>
+                <li> Barnier, G. and Dunham, E.M., 2016, December. Tsunami Modeling and Prediction Using a Data Assimilation Technique with Kalman Filters. In AGU Fall Meeting Abstracts (Vol. 2016, pp. NH41A-1754).</li>
+                <li> Revil, A., Barnier, G., Sava, P.C., Jardani, A. and Kulessa, B., 2014, December. Seismoelectric coupling in partially water-saturated porous media: From the theory to the detection of saturation fronts. In AGU Fall Meeting Abstracts (Vol. 2014, pp. NS31D-06).</li>
+                <li> Revil, A., Barnier, G., Karaoulis, M., Sava, P., Jardani, A. and Kulessa, B., 2014. Seismoelectric coupling in unsaturated porous media: theory, petrophysics, and saturation front localization using an electroacoustic approach. Geophysical Journal International, 196(2), pp.867-884.</li>
+                <li> Barnier, G., 2013. Detecting electrical and hydraulic heterogeneities using seismic focusing and seismoelectric conversions (Doctoral dissertation, Colorado School of Mines).</li>
+                </ol>
+            </p>
+        </div>
+
+        <!-- Invited conference presentations-->
+        <div>
+            <h5 style="margin-bottom: 1.5em; margin-left: 50px; margin-top: 0.0em; font-weight: bold;">INVITED CONFERENCE PRESENTATIONS</h5>
+            <p style="margin-left: 100px; margin-bottom: -1.0em; font-size: 20px;font-family: Calibri">
+                <ol class="publication-list">
+                    <li>"Full waveform inversion by model extension using a model-space multi-scale approach" at the 89th SEG Annual meeting 2020, invited speaker at the post-convention workshop "Low-frequency FWI: How low do we need to go?" (Houston, USA) </li>
+                    <li>"Extended imaging for robust velocity-model building and elastic target-oriented full-waveform inversion", invited speaker at the 8th Chevron FWI workshop 2019 (Houston, USA)</li>
+                    <li>"Exploiting the entire data bandwidth by extended imaging for avoiding cycle skipping and elastic target-oriented inversion" at the 88th SEG Annual meeting 2019, invited speaker at the post-convention workshop "Value of High-frequency FWI Models" (San Antonio, USA) </li>
+                    <li>"Full Waveform Inversion by Model Extension", invited speaker at the 2019 SIAM Conference on Mathematical and Computational issue in the Geosciences (Houston, USA)</li>
+                    <li>"Effects of top-salt picking inaccuracies on subsalt image quality" at the 85th SEG Annual meeting 2015, invited speaker at the post-convention workshop "Challenges and Opportunities in Subsalt Imaging" (New Orleans, USA)</li>
+                </ol>
+            </p>
+        </div>
+
+    </body>
+</html>
