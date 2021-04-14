@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} {% endif %}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
@@ -21,11 +21,10 @@
     <meta http-equiv="cleartype" content="on">
 
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <link rel="icon" type="image/x-icon" href="/images/atari.png" />
-
+    <link rel="icon" type="image/x-icon" href="/images/atari2.png" />
   </head>
 
-  <body id="js-body">
+  <body id="js-body" style="background-color: #F2F3F4;">
     {% include browser-upgrade.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
