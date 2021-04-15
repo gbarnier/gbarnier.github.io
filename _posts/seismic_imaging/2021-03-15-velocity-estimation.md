@@ -8,7 +8,7 @@ modified: " "
 share: true
 permalink: velocity-estimation
 image:
-  teaser: vel-estimation_c.png
+  teaser: fwi_marmousi_final_good_a.png
 ---
 
 <h3>STEP 2: Velocity model estimation</h3>
