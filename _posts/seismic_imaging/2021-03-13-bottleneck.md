@@ -37,7 +37,7 @@ Tomographic algorithms require the use of iterative numerical methods based on m
 
 <h5>3. The ill-posedness of the inverse problem</h5>
 <p style="text-align:justify; font-size: 18px">
-The most challenging issue comes from the fact that conventional seismic tomography is a mathematically and numerically ill-posed problem. In other words, the quality of the estimated solution is contingent on already having a good initial guess and/or access to a certain type of seismic data which are either too costly - or impossible - to acquire. In fact, if the initial guess is too far from the true solution, most gradient-descent optimization schemes tend to recover non geologically realistic (and thus non-useful) models. From an optimization standpoint, this phenomenon can be explained by the presence of multiple spurious local minima within the loss function that is being minimized.
+The most challenging issue comes from the fact that conventional seismic tomography (using mostly reflected waves) is a mathematically and numerically ill-posed problem. In other words, the quality of the estimated solution is contingent on already having a good initial guess and/or access to a certain type of seismic data which are either too costly - or impossible - to acquire. In fact, if the initial guess is too far from the true solution, most gradient-descent optimization schemes tend to recover non geologically realistic (and thus non-useful) models. From an optimization standpoint, this phenomenon can be explained by the presence of multiple spurious local minima within the loss function that is being minimized.
 </p>
 
 <h5>4. The Earth is flat...</h5>
