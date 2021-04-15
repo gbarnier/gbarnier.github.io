@@ -1,6 +1,7 @@
 ---
 layout: home
 permalink: /
+tag: Home
 title:
 image:
   feature: zion_c.png
