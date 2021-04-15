@@ -9,7 +9,7 @@ permalink: /geophysics/
 <h3>Imaging the Earth with sound waves</h3>
 <p style="text-align:justify;font-size: 18px; margin-bottom: 1.0em; width: 800px;">
 
-    I am a Ph.D. candidate in the Stanford Exploration Project (<a href="/sep" target="_blank">SEP</a>) group at Stanford University, which is the the first ever geophysical research consortium funded by the oil and gas industry, and founded by seismologist <a href="https://en.wikipedia.org/wiki/Jon_Claerbout" target="_blank">Jon F. Claerbout</a> in 1973. Have a look <a href="/sep">here</a> to learn more about the history of our group!<br/><br/>
+    I am a Ph.D. candidate in the Stanford Exploration Project (<a href="/sep">SEP</a>) group at Stanford University, which is the the first ever geophysical research consortium funded by the oil and gas industry, and founded by seismologist <a href="https://en.wikipedia.org/wiki/Jon_Claerbout" target="_blank">Jon F. Claerbout</a> in 1973. Have a look <a href="/sep">here</a> to learn more about the history of our group!<br/><br/>
 
     I work on a non-invasive geophyiscal method called <a href="/seismic-imaging">seismic imaging</a>, in which sound waves are employed to produce maps of the Earth's subsurface. This method is useful at detecting high-resolution geological features within the ground, and helps energy companies conduct hydrocarbon exploration and production in a safer, more efficient, and more environmental-friendly manner. Click <a href="/seismic-imaging">here</a> to learn more about this technique!<br/><br/>
 
