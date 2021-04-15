@@ -1,6 +1,6 @@
 ---
 layout: ml
-title: Geophysics
+title: 
 share: true
 permalink: /geophysics/
 
