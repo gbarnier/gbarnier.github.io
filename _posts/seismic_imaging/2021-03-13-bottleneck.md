@@ -18,9 +18,7 @@ image:
 }
 </style>
 
-<h2>Limitations of current methods</h2>
-
-<h4>Seismic velocity estimation: the main bottleneck</h4>
+<h3>Seismic velocity estimation: the main bottleneck</h3>
 
 <p style="text-align:justify; font-size: 18px">
 As we saw in the <a href="/migration">previous sections</a>, seismic velocity model building techniques such as FWI can be very powerful. However, it turns out that building a good velocity model can be a very chellenging task. I see (at least) four main reasons for that:
