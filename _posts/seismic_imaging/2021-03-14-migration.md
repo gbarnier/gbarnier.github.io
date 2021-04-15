@@ -27,9 +27,9 @@ If the source-sensor distance <span style="font-size: 18px;color: black"><b>D<su
 </figure>
 
 <p style="text-align:justify; font-size: 18px">
-The take-away message here is that migration is simply the process of using the reflected energy present in the recorded signal and mapping it back - or migrating it - to the position of the interface between rock layers that generated the reflection. <br/><br/>
+The <b>take-away message</b> here is that migration is simply the process of using the reflected energy present in the recorded signal and mapping it back - or migrating it - to the position of the interface between rock layers that generated the reflection. <br/><br/>
 
-The inputs for the migration step are the <a href="/acquisition">seismic data</a> acquired in the field (step 1 of the imaging process) and the seismic <a href="/velocity-estimation">velocity model</a> obtained in step 2. The figure below illustrates the inputs for the same synthetic numerical example used in the previous sections. The left panel shows the seismic data as if it had been acquired with an offshore survey, and the right panel is the velocity model obtained after 100 iterations of FWI.
+The inputs for the migration step are the <a href="/acquisition">seismic data</a> acquired in the field (step 1 of the imaging process) and the seismic <a href="/velocity-estimation">velocity model</a> obtained in step 2. The figure below illustrates these inputs for the same synthetic numerical example used in the previous sections. The left panel shows the seismic data as if it had been acquired with an offshore survey, and the right panel is the velocity model obtained after 100 iterations of FWI.
 </p>
 <img src="/images/mig-input.png" width="2000" style="margin-left:0px"/>
 
