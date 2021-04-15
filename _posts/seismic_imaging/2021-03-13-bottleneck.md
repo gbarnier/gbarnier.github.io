@@ -18,7 +18,7 @@ image:
 }
 </style>
 
-<h3>Limitations of current methods</h3>
+<h2>Limitations of current methods</h2>
 
 <h4>Seismic velocity estimation: the main bottleneck</h4>
 
