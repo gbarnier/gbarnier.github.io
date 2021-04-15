@@ -30,7 +30,7 @@ In the last decade, one particular tomogaphic algorithm referred to as full wave
 </p>
 
 <p style="text-align:justify; font-size: 18px">
-The animated figure below shows a synthetic example of a FWI workflow on the <a href="/papers/marmousi2.pdf">Marmousi 2</a> model (Martin et al., 2006). In the seismic imaging community, synthetic models/test are a very common and remain an efficient way to test, benchmark, and assess the performance of tomographic algorithms. Here, the goal is to recover a model as similar to the true Earth as possible (assumed to be known). Each frame corresponds to the velocity model estimation at a given iteration during the process. As you can see, the initial model is quite smooth (i.e., low resolution) and lacks many details from the true Earth. After applying FWI, the final recovered model has greatly improved and captures the high-resolution features from the true Earth.
+The animated figure below shows a synthetic example of a FWI workflow on the <a href="/papers/marmousi2.pdf">Marmousi 2</a> model (Martin et al., 2006). In the seismic imaging community, synthetic models/tests remain a very common and efficient way to test, benchmark, and assess the performance of tomographic algorithms. Here, the goal is to recover a model as similar to the true Earth as possible (assumed to be known). Each frame corresponds to the velocity model estimation at a given iteration during the process. As you can see, the initial model is quite smooth (i.e., low resolution) and lacks many details from the true Earth. After applying FWI, the final recovered model has greatly improved and captures the high-resolution features from the true Earth.
 </p><br/>
 
 <figure>
