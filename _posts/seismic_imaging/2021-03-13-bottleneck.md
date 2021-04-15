@@ -68,7 +68,7 @@ For the sack of simplicity, let's use the same benchmark model shown in the prev
 
 <p style="text-align:justify; font-size: 18px">
 We now conduct the same experiment but starting with a lower-resolution and quite uniformative initial model (left panel). As we can observe, FWI fails to recover an accurate solution (middle panel).
-<p>
+</p>
 
 <figure class="left">
   <img class="top" src="/images/fwi_marmousi_init_bad_a.png" width="260" />
@@ -84,6 +84,10 @@ We now conduct the same experiment but starting with a lower-resolution and quit
   <img class="average" src="/images/fwi_marmousi_true_a.png" width="260"/>
   <figcaption style="height: 1.0em; text-align:center; font-size: 18px; font-family: Calibri; color: black; margin-left: 0px">Model representing the true Earth</figcaption>
 </figure>
+
+<p>
+<b>Disclaimer</b>: all the figures above are <b>not drawn to scale</b>! The vertical extent of each panel is approximately 3.5 km in depth by 18 km in width.
+</p>
 
 <p>
 In the next section, I show how the algorithm I developed for my Ph.D. - referred to as full waveform inversion (FWIME) - mitigates this issue.
