@@ -2,6 +2,7 @@
 layout: media
 title: "Step 2: Seismic Velocity Estimation"
 categories: geophysics
+tag: Velocity Estimation
 excerpt: " "
 ads: false
 modified: " "
@@ -30,13 +31,17 @@ In the last decade, one particular tomogaphic algorithm referred to as full wave
 </p>
 
 <p style="text-align:justify; font-size: 18px">
-The animated figure below shows a synthetic example of a FWI workflow on the <a href="/papers/marmousi2.pdf">Marmousi 2</a> model (Martin et al., 2006). In the seismic imaging community, synthetic models/tests remain a very common and efficient way to test, benchmark, and assess the performance of tomographic algorithms. Here, the goal is to recover a model as similar to the true Earth as possible (assumed to be known). Each frame corresponds to the velocity model estimation at a given iteration during the process. As you can see, the initial model is quite smooth (i.e., low resolution) and lacks many details from the true Earth. After applying FWI, the final recovered model has greatly improved and captures the high-resolution features from the true Earth.
+The animated figure below shows a synthetic example of a FWI workflow on the well-known <a href="/papers/marmousi2.pdf">Marmousi 2</a> model (Martin et al., 2006). In the seismic imaging community, synthetic models/tests are a very common and remain an efficient way to test, benchmark, and assess the performance of tomographic algorithms. Here, the goal is to recover a model as similar to the true Earth as possible (assumed to be known). Each frame corresponds to the velocity model estimation at a given iteration during the process. As you can see, the initial model is quite smooth (i.e., low resolution) and lacks many details from the true Earth. After applying FWI, the final recovered model has greatly improved and captures the high-resolution features from the true Earth.
 </p><br/>
 
 <figure>
 <img src="/images/fwi-marmousi.gif" width="600" style="margin-left:130px"/>
 <figcaption style="height: 1.0em; text-align:center; font-size: 18px; font-family: Calibri; color: black; margin-left: 40px">Example of a successful application of FWI on a synthetic model.</figcaption>
 </figure>
+
+<p>
+<b>Disclaimer</b>: the figure above (especially the boat) is <b>not drawn to scale</b>! The vertical extent of each panel images is approximately 3.5 km in depth by 18 km in width.
+</p>
 
 <p style="text-align:justify; font-size: 18px">
 Finally, once the velocity model estimation step has been successfully conducted, it can be used (along with the seismic data) as an input to produce higher-resolution images of the subsurface. This is the last step of the imaging process, referred to as <b>migration</b>.
