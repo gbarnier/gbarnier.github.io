@@ -60,7 +60,7 @@ Now that we understand more about how seismic data are acquired, let's learn abo
 
 <p>
 <span style="text-align:left; font-size: 18px"><a href="/seismic-imaging"><-- <b><span style="color: red">PREVIOUS</span></b>: Back to seismic imaging</a></span>
-<span style="text-align:right; margin-left:220px; font-size: 18px"><a href="/migration"><b><span style="color: green">NEXT</span></b>: Velocity estimation --> </a></span>
+<span style="text-align:right; margin-left:220px; font-size: 18px"><a href="/velocity-estimation"><b><span style="color: green">NEXT</span></b>: Velocity estimation --> </a></span>
 </p>
 
 
