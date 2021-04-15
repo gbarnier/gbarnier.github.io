@@ -2,7 +2,8 @@
 layout: media
 title: "Limitation of current tomographic algorithms"
 categories: geophysics
-excerpt: "Velocity model building is the main bottleneck of the seismic imaging process"
+excerpt: " "
+tag: Bottleneck
 ads: false
 modified: " "
 share: true
@@ -36,7 +37,7 @@ The area within the subsurface to be characterized needs to be spatially discret
 Tomographic algorithms require the use of iterative numerical methods based on minimizing a loss function with gradient-descent optimization schemes. At each iteration, thousands of wave propagations must be simulated on a computer, usually by numerically solving a wave-equation partial differential equation (PDE). This requirement, combined with the high-dimension nature of the problem make these algorithms very computationally intensive, even with the use of graphics processing units (GPUs). Finally, unlike most supervised deep learning problems, the computational cost of tomographic algorithms is so high that a thorough hyperparameter search is often computationally untractable. For instance, one single forward pass of our modeling scheme could take up to 1-2 days on a modern industry-sized computer cluster. Consequently, a lot of effort is being invested into reducing the number of adjustable hyperparameters within the velocity estimation process (this is one of the main contributions of my thesis).
 </p>
 
-<h5>3. The ill-posedness of the estimation problem</h5>
+<h5>3. The ill-posedness of the inverse problem</h5>
 <p style="text-align:justify; font-size: 18px">
 The most challenging issue comes from the fact that conventional seismic tomography is a mathematically and numerically ill-posed problem. In other words, the quality of the estimated solution is contingent on already having a good initial guess and/or access to a certain type of seismic data which are either too costly - or impossible - to acquire. In fact, if the initial guess is too far from the true solution, most gradient-descent optimization schemes tend to recover non geologically realistic (and thus non-useful) models. From an optimization standpoint, this phenomenon can be explained by the presence of multiple spurious local minima within the loss function that is being minimized.
 </p>
