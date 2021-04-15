@@ -39,7 +39,7 @@ The animated figure below shows a synthetic example of a FWI workflow on the <a 
 </figure>
 
 <p style="text-align:justify; font-size: 18px">
-Finally, once the velocity model estimation step has been successfully coducted, it can be used (along with the seismic data) as inputs to produce higher-resolution images of the subsurface. This is the last step of the imaging process, referred to as <b>migration</b>.
+Finally, once the velocity model estimation step has been successfully conducted, it can be used (along with the seismic data) as an input to produce higher-resolution images of the subsurface. This is the last step of the imaging process, referred to as <b>migration</b>.
 </p>
 <br/>
 <p>
