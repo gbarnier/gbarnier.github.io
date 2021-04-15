@@ -1,6 +1,7 @@
 ---
 layout: ml
 title: Machine Learning Projects
+tag: ML Projects
 share: true
 permalink: /ml_projects/
 ---
