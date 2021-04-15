@@ -27,7 +27,7 @@ As we saw in the <a href="/migration">previous sections</a>, seismic velocity mo
 
 <h5>1. The large number of unknown parameters</h5>
 <p style="text-align:justify; font-size: 18px">
-The area within the subsurface to be characterized needs to be spatially discretized into a 3D array of voxels, and then stored on a computer. The (unknown) value of each voxel represents the speed of sound at a given location, and must be numerically estimated. For field applications, the number of unknown parameters can be extremely large. For instance, a survey area with a horizontal extent of 10 km x 10 km with a maximum depth of 10 km and discretized with a spatial sampling of 10 m (which is quite commmon for industry standards) requires the estimation of as many as <b>1bn parameters</b>.
+The area within the subsurface to be characterized needs to be spatially discretized into a 3D array of voxels, and then stored on a computer. The (unknown) value of each voxel represents the speed of sound at a given location, and must be numerically estimated. For field applications, the number of unknown parameters can be extremely large. For instance, a survey area with a horizontal extent of 10 km x 10 km with a maximum depth of 10 km and discretized with a spatial sampling of 10 m (which is quite commmon for industry standards) requires the estimation of as many as <b>1 billion parameters</b>.
 </p>
 
 <h5>2. The computational cost</h5>
