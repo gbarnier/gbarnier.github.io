@@ -2,13 +2,14 @@
 layout: media
 title: "Step 3: Seismic Migration"
 categories: geophysics
+tag: Migration
 excerpt: " "
 ads: false
 modified: " "
 share: true
 permalink: migration
 image:
-  teaser: migration_hyperbolic.png
+  teaser: migration_uncommented.png
 ---
 
 <h3>STEP 3: The migration process</h3>
@@ -46,5 +47,5 @@ Finally, a team of experts will interpret the geological features of the subsurf
 In complex geological scenarios, seismic images are highly sensitive to the accuracy of the velocity model obtained by tomography, and even a small error will easily deteriorate the image quality. Unfortunately, the velocity model estimation step is extremely challenging and remains the main bottleneck of the imaging workflow. The success of conventional methods (such as FWI) is contingent on having a good initial guess, which is not always available. Therefore, a lot of research has been conducted to invent new tomography techniques robust enough to bypass the need for an accurate initial model. And this is where my thesis starts! But first, let's see why conventional methods can fail in certain scenarios
 <p>
 <span style="text-align:right; font-size: 18px"><a href="/velocity-estimation"><-- <b><span style="color: red">PREVIOUS</span></b>: Velocity estimation</a></span>
-<span style="text-align:right; margin-left:280px; font-size: 18px"><a href="/bottleneck"><b><span style="color: green">NEXT</span></b>: When things fail --> </a></span>
+<span style="text-align:right; margin-left:170px; font-size: 18px"><a href="/bottleneck"><b><span style="color: green">NEXT</span></b>: When conventional methods fail --> </a></span>
 </p>
