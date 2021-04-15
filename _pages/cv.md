@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Curriculum Vitae
+tag: CV/Resume
 permalink: /cv/
 ---
 
