@@ -8,7 +8,7 @@ modified: " "
 share: true
 permalink: migration
 image:
-  teaser: migration_uncommented.png
+  teaser: migration_hyperbolic.png
 ---
 
 <h3>STEP 3: The migration process</h3>
