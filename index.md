@@ -24,21 +24,37 @@ image:
         text-align:center;
      }     
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 1500px) and (min-width: 700px){
       .p-display {
           margin-left: 0px;
           font-size: 20px;
           text-align: left;
           width: 300px;
-          border: 0px
+          color: black;
+          color: blue;
       }
       .title-display{
          font-family: Calibri;
          font-size: 50px;
          text-align:left;
-         margin-left: 50px;
+         margin-left: 100px;
       }     
-
+    }
+    @media screen and (max-width: 700px){
+      .p-display {
+          margin-left: 0px;
+          font-size: 20px;
+          text-align: left;
+          width: 300px;
+          color: green;
+      }
+      .title-display{
+         font-family: Calibri;
+         font-size: 50px;
+         text-align:left;
+         margin-left: 100px;
+      }     
+    }    
 </style>
 </head>
 
