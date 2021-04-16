@@ -27,28 +27,28 @@ permalink: /about/
         }         
         @media screen and (max-width: 1500px) and (min-width: 700px){
             .paragraph-fig{
-              width: 400px;
-              text-align: left;
+              width: 500px;
+              text-align: justify;
               margin-left: 0px;
             }
             .paragraph-wide{
-              width: 500px;
-              text-align: left;
+              width: 600px;
+              text-align: justify;
             }  
             .fig-wide{
-              width: 170px;
+              width: 200px;
               float: right;
               border: 2px solid black;
             }
         }    
         @media screen and (max-width: 700px){
             .paragraph-fig{
-              width: 300px;
+              width: 400px;
               text-align: left;
               margin-left: 0px;
             }
             .paragraph-wide{
-              width: 400px;
+              width: 500px;
               text-align: left;
             }  
             .fig-wide{
