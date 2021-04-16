@@ -40,7 +40,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 600px;
-        color: red;    
+        color: black;    
     }
 
 }
@@ -50,10 +50,10 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 300px;
-        color: blue;    
+        color: black;    
     }
     .fig{
-        width: 400px;
+        width: 360px;
         margin-left: 0px;
     }
     .fig-label{
