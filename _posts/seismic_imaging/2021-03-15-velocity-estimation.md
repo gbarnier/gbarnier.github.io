@@ -96,7 +96,7 @@ The animated figure below shows a synthetic example of a FWI workflow on the wel
 <img src="/images/fwi-marmousi.gif" class="fig"/>
 <figcaption class="fig-label">Example of a successful application of FWI on a synthetic model.</figcaption>
 </figure>
-
+<br/>
 <p class="paragraph">
 <b>Disclaimer</b>: the figure above (especially the boat) is <b>not drawn to scale</b>! The vertical extent of each panel images is approximately 3.5 km in depth by 18 km in width.<br/><br/>
 Finally, once the velocity model estimation step has been successfully conducted, it can be used (along with the seismic data) as an input to produce higher-resolution images of the subsurface. This is the last step of the imaging process, referred to as <b>migration</b>.
