@@ -47,7 +47,7 @@ image:
           font-size: 20px;
           text-align: left;
           width: 300px;
-          color: green;
+          color: black;
       }
       .title-display{
          font-family: Calibri;
