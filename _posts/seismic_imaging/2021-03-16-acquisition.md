@@ -59,7 +59,7 @@ image:
     }
     .fig{
         width: 300px;
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .fig-label{
         height: 1.0em;
@@ -67,7 +67,7 @@ image:
         font-size: 18px;
         font-family: Calibri;
         color: black;
-        margin-left: 50px;
+        margin-left: 0px;
     }       
 }
 
