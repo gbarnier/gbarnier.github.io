@@ -24,7 +24,7 @@ image:
         text-align:center;
      }     
 
-    @media screen and (max-width: 1500px) and (min-width: 700px){
+    @media screen and (max-width: 1500px) and (min-width: 500px){
       .p-display {
           font-size: 20px;
           text-align: justify;
@@ -41,7 +41,7 @@ image:
           text-align:center;
       }     
     }
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 500px){
       .p-display {
           margin-left: 0px;
           font-size: 20px;
