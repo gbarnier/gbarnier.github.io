@@ -6,6 +6,12 @@ title:
 image:
   feature: zion_c.png
 ---
+<style media="max-width: 500px">
+  p{
+  background-color: yellow;
+  }
+</style>
+
 <body>
     <p style="text-align:center; font-family: Calibri; font-size: 50px;">Welcome!</p>
 
