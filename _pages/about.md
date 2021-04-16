@@ -49,7 +49,7 @@ permalink: /about/
             }
             .paragraph-wide{
               width: 500px;
-              text-align: left;
+              text-align: justify;
             }  
             .fig-wide{
               width: 100px;
