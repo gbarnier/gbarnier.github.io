@@ -28,7 +28,7 @@ image:
       .p-display {
           margin-left: 0px;
           font-size: 20px;
-          text-align:justify;
+          text-align:left;
           border: 0px
       }
       .title-display{
