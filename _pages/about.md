@@ -43,12 +43,12 @@ permalink: /about/
         }    
         @media screen and (max-width: 700px){
             .paragraph-fig{
-              width: 400px;
+              width: 300px;
               text-align: left;
               margin-left: 0px;
             }
             .paragraph-wide{
-              width: 450px;
+              width: 300px;
               text-align: justify;
             }  
             .fig-wide{
