@@ -51,9 +51,7 @@ permalink: /about/
             }
             .paragraph-wide{
               width: 300px;
-              text-align: justify;
-              text-justify: distribute;
-              word-spacing: -1.25px;      
+              text-align: left;   
               color: blue;
             }  
             .fig-wide{
