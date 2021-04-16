@@ -48,7 +48,7 @@ permalink: /about/
               margin-left: 0px;
             }
             .paragraph-wide{
-              width: 500px;
+              width: 450px;
               text-align: justify;
             }  
             .fig-wide{
