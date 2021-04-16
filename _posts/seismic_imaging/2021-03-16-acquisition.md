@@ -123,8 +123,8 @@ Now that we understand more about how seismic data are acquired, let's learn abo
 <br/>
 
 <p>
-<span style="float:left; font-size: 18px"><a href="/seismic-imaging"><b><span style="color: red"><-- BACK TO MAIN PAGE</span></b></a></span>
-<span style="float:right; font-size: 18px"><a href="/velocity-estimation"><b><span style="color: green">NEXT --></span></b> </a></span>
+<span style="float:left; font-size: 15px"><a href="/seismic-imaging"><b><span style="color: red"><-- PREVIOUS</span></b></a></span>
+<span style="float:right; font-size: 15px"><a href="/velocity-estimation"><b><span style="color: green">NEXT --></span></b> </a></span>
 </p>
 <br/>
 <br/>
