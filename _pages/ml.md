@@ -11,28 +11,47 @@ permalink: /ml_projects/
     width: 250px;
     height: 200px;
     }
+.description-title{
+    width: 220px;
+    text-align: left;
+    margin-bottom: -0.5em;
+    color: black;
+    font-size: 22px;
+    font-family: Calibri;
+}
+
 .description-text{
     width: 220px;
-    text-align:left;
+    text-align: left;
     margin-bottom: -0.5em;
     color: black;
     font-size: 18px;
 }
 .paragraph{
-    text-align:justify;
+    text-align: justify;
     font-size: 18px;
     margin-bottom: 1.0em;
     width: 800px;
 }    
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 400px) {
     .icon-fig{
         width: 150px;
         height: 120px;
         }
+
+    .description-title{
+        width: 150px;
+        text-align: center;
+        margin-bottom: -0.5em;
+        color: black;
+        font-size: 18px;
+        font-family: Calibri;
+    }
+
     .description-text{
         width: 150px;
-        text-align:left;
+        text-align: left;
         margin-bottom: -0.5em;
         color: black;
         font-size: 18px;
