@@ -36,7 +36,7 @@ permalink: /about/
               text-align: left;
             }  
             .fig-wide{
-              width: 170px;
+              width: 90px;
               float: right;
               border: 2px solid black;
             }                           
