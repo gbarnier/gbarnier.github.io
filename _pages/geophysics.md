@@ -92,10 +92,10 @@ permalink: /geophysics/
     }            
     .paragraph{
         text-align:justify;
-        word-spacing: -1.75px; 
+        word-spacing: -2.5px; 
         font-size: 18px;
         margin-bottom: 0.5em;
-        width: 275px;
+        width: 280px;
         color: orange;
     }
 }
