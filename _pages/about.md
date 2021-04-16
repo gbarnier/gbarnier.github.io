@@ -53,7 +53,8 @@ permalink: /about/
               width: 300px;
               text-align: justify;
               text-justify: distribute;
-              word-spacing: -1.25px;                      
+              word-spacing: -1.25px;      
+              color: blue;
             }  
             .fig-wide{
               width: 100px;
