@@ -26,18 +26,19 @@ image:
 
     @media screen and (max-width: 1500px) and (min-width: 700px){
       .p-display {
-          margin-left: 0px;
           font-size: 20px;
-          text-align: left;
-          width: 300px;
-          color: black;
-          color: blue;
+          text-align: justify;
+          font-family: Calibri;
+          width: 400px;
+          line-height:1.4;
+          margin-bottom: -0.0em;
+          margin-left: 330px;
+          color: blue;          
       }
       .title-display{
-         font-family: Calibri;
-         font-size: 50px;
-         text-align:left;
-         margin-left: 100px;
+          font-family: Calibri;
+          font-size: 50px;
+          text-align:center;
       }     
     }
     @media screen and (max-width: 700px){
@@ -52,7 +53,7 @@ image:
          font-family: Calibri;
          font-size: 50px;
          text-align:left;
-         margin-left: 100px;
+         margin-left: 50px;
       }     
     }    
 </style>
