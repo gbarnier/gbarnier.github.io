@@ -58,7 +58,7 @@ image:
         color: blue;    
     }
     .fig{
-        width: 300px;
+        width: 400px;
         margin-left: 40px;
     }
     .fig-label{
@@ -67,7 +67,7 @@ image:
         font-size: 18px;
         font-family: Calibri;
         color: black;
-        margin-left: 0px;
+        margin-left: 120px;
     }       
 }
 
