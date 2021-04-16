@@ -33,7 +33,7 @@ image:
           line-height:1.4;
           margin-bottom: -0.0em;
           margin-left: 330px;
-          color: blue;          
+          color: black;          
       }
       .title-display{
           font-family: Calibri;
