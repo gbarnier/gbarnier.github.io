@@ -58,7 +58,7 @@ image:
         color: blue;    
     }
     .fig{
-        width: 500px;
+        width: 400px;
         margin-left: 0px;
     }
     .fig-label{
