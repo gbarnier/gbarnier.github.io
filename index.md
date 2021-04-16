@@ -20,7 +20,7 @@ image:
 
 <style media="all and (max-width: 900px)">
   p{
-  background-color: yellow;
+  font-size: 20px;
   }
 </style>
 
