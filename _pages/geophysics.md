@@ -95,8 +95,8 @@ permalink: /geophysics/
         word-spacing: -2.5px; 
         font-size: 18px;
         margin-bottom: 0.5em;
-        width: 280px;
-        color: orange;
+        width: 290px;
+        color: black;
     }
 }
 </style>
