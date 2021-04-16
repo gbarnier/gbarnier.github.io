@@ -43,7 +43,7 @@ permalink: /about/
         }    
         @media screen and (max-width: 700px){
             .paragraph-fig{
-              width: 500px;
+              width: 400px;
               text-align: left;
               margin-left: 0px;
             }
