@@ -63,7 +63,7 @@ permalink: /geophysics/
         text-align:justify;
         font-size: 18px;
         margin-bottom: 0.5em;
-        width: 400px;
+        width: 700px;
         color: black;
     }
 }
@@ -94,7 +94,7 @@ permalink: /geophysics/
         text-align:left;
         font-size: 18px;
         margin-bottom: 0.5em;
-        width: 200px;
+        width: 350px;
         color: black;
     }
 }
