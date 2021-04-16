@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Step 1: Seismic Data Acquisition"
+title: "Seismic Data Acquisition"
 categories: geophysics
 tag: Acquisition
 excerpt: " "
