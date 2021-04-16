@@ -27,8 +27,9 @@ permalink: /about/
         }         
         @media screen and (max-width: 1500px) and (min-width: 700px){
             .paragraph-fig{
-              width: 500px;
+              width: 400px;
               text-align: justify;
+              word-spacing: -1.5px;                            
               margin-left: 0px;
             }
             .paragraph-wide{
