@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Step 2: Seismic Velocity Estimation"
+title: "Seismic Velocity Estimation"
 categories: geophysics
 tag: Velocity Estimation
 excerpt: " "
