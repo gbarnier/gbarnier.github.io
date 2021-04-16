@@ -1,8 +1,8 @@
 ---
 layout: media
-title: "Seismic Imaging"
+title: "What is Seismic Imaging?"
 categories: geophysics
-excerpt: "Seismic imaging is a 3-step process</b>: data acquisition, velocity estimation, and migration. Click here for more details!"
+excerpt: " "
 ads: false
 modified: " "
 share: true
