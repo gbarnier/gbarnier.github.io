@@ -53,7 +53,7 @@ permalink: /about/
             .paragraph-wide{
               width: 300px;
               text-align: left;   
-              color: blue;
+              color: black;
             }  
             .fig-wide{
               width: 100px;
