@@ -36,14 +36,14 @@ permalink: /about/
               text-align: justify;
             }  
             .fig-wide{
-              width: 200px;
+              width: 120px;
               float: right;
               border: 2px solid black;
             }
         }    
         @media screen and (max-width: 700px){
             .paragraph-fig{
-              width: 400px;
+              width: 300px;
               text-align: left;
               margin-left: 0px;
             }
