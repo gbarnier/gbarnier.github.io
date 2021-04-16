@@ -34,6 +34,8 @@ permalink: /about/
             .paragraph-wide{
               width: 600px;
               text-align: justify;
+              text-justify: distribute;
+              word-spacing: -1.25px;              
             }  
             .fig-wide{
               width: 200px;
@@ -50,6 +52,8 @@ permalink: /about/
             .paragraph-wide{
               width: 300px;
               text-align: justify;
+              text-justify: distribute;
+              word-spacing: -1.25px;                      
             }  
             .fig-wide{
               width: 100px;
