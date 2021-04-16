@@ -13,10 +13,9 @@
         </p>
     {% endif %} -->
     <h2 class="post-title" itemprop="name" class="description-text">
-        <a href="{{ site.url }}{{ post.url }}" class="description-text">{{ post.title }}</a>
+        <a href="{{ site.url }}{{ post.url }}" class="description-title">{{ post.title }}</a>
     </h2>
     <p class="post-excerpt" itemprop="description" class="description-text">
         {{ post.excerpt | strip_html | truncate: 160 }}
     </p>
 </article><!-- /.tile -->
-
