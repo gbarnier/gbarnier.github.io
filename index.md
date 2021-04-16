@@ -36,7 +36,7 @@ image:
          font-family: Calibri;
          font-size: 50px;
          text-align:left;
-         margin-left: 100px;
+         margin-left: 50px;
       }     
 
 </style>
