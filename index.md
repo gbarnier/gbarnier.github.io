@@ -6,6 +6,20 @@ title:
 image:
   feature: zion_c.png
 ---
+<style>  
+p{
+  background-color: blue;
+  color: white;
+ }
+</style>
+
+<style media="all and (max-width: 500px)">  
+p{
+  background-color: yellow;
+  color: blue;
+ }
+</style>
+
 <body>
     <p>Welcome!</p>
 
