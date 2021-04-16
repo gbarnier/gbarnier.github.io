@@ -91,11 +91,12 @@ permalink: /geophysics/
         font-size: 18px;
     }            
     .paragraph{
-        text-align:left;
+        text-align:justify;
+        word-spacing: -1.75px; 
         font-size: 18px;
         margin-bottom: 0.5em;
         width: 350px;
-        color: blue;
+        color: purple;
     }
 }
 </style>
