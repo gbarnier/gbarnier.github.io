@@ -11,7 +11,7 @@ image:
 <style>
      .p-display{
          font-size: 20px;
-         text-align:justify;
+         text-align: justify;
          font-family: Calibri;
          width: 400px;
          line-height:1.4;
@@ -24,11 +24,12 @@ image:
         text-align:center;
      }     
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 500px) {
       .p-display {
           margin-left: 0px;
           font-size: 20px;
-          text-align: justify;
+          text-align: left;
+          width: 300px;
           border: 0px
       }
       .title-display{
