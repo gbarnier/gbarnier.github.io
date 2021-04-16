@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Step 3: Seismic Migration"
+title: "Seismic Migration"
 categories: geophysics
 tag: Migration
 excerpt: " "
