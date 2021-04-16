@@ -20,8 +20,12 @@ permalink: /about/
             width: 800px;
             text-align: justify;
         }        
-
-        @media screen and (max-width: 1000px) {
+        .fig-wide{
+          width: 200px;
+          float: right;
+          border: 2px solid black;
+        }         
+        @media screen and (max-width: 1500px) {
             .paragraph-fig{
               width: 400px;
               text-align: left;
@@ -30,7 +34,12 @@ permalink: /about/
             .paragraph-wide{
               width: 500px;
               text-align: left;
-            }            
+            }  
+            .fig-wide{
+              width: 170px;
+              float: right;
+              border: 2px solid black;
+            }                           
 
         </style>
 
@@ -41,7 +50,8 @@ permalink: /about/
 
         <!-- <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/> -->
         <h5>Geophysics</h5>
-        <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/>
+        <!-- <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/> -->
+        <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" class="fig-wide"/>
 
         <div class="paragraph-fig">
         <!-- <div style="display: inline; font-weight: normal;text-align: left;" > -->
