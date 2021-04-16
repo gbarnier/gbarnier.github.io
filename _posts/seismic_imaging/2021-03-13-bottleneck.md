@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Limitation of current tomographic algorithms"
+title: "Limitation of conventional methods"
 categories: geophysics
 excerpt: " "
 tag: Bottleneck
