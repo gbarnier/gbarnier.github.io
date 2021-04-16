@@ -55,6 +55,7 @@ permalink: /about/
               width: 100px;
               float: right;
               border: 2px solid black;
+              margin-left: 70px;
             }                                        
         }
         </style>
