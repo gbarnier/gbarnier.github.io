@@ -9,14 +9,41 @@ permalink: /about/
     <head>
         <!-- <title>Guillaume</title> -->
         <link type="text/css" rel="stylesheet" href="/css/about_style.css"/>
+
+        <style>
+
+        .paragraph-fig{
+            width: 590px;
+            text-align: justify;
+        }
+        .paragraph-wide{
+            width: 800px;
+            text-align: justify;
+        }        
+
+        @media screen and (max-width: 1000px) {
+            .paragraph-fig{
+              width: 400px;
+              text-align: left;
+              margin-left: 0px;
+            }
+            .paragraph-wide{
+              width: 500px;
+              text-align: left;
+            }            
+
+        </style>
+
     </head>
+
+
     <body style="background-color: #F2F3F4;">
 
         <!-- <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/> -->
         <h5>Geophysics</h5>
         <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/>
 
-        <div style="width: 590px; text-align: justify;">
+        <div class="paragraph-fig">
         <!-- <div style="display: inline; font-weight: normal;text-align: left;" > -->
             <p>
                 <ul>
@@ -30,7 +57,7 @@ permalink: /about/
         </div>
 
         <h5>Machine Learning</h5>
-        <div style="display: inline; font-weight: normal;text-align: left; text-align: justify;" >
+        <div class="paragraph-wide">
             <p>
                 <ul>
                     <li>In the last couple of years, I became passionate about machine learning, especially <b>reinforcement learning</b> algorithms.</li>
@@ -42,7 +69,7 @@ permalink: /about/
         </div>
 
         <h5>Financial Markets</h5>
-        <div style="display: inline; font-weight: normal;text-align: left; text-align: justify;" >
+        <div class="paragraph-wide">
             <p>
                 <ul>
                     <li>Prior to my Geophysics career, I was an investement banker and I worked for J.P. Morgan Global Markets in London from 2007 to 2010, selling and buying interest rate derivative products for hedge funds.</li>
@@ -50,7 +77,7 @@ permalink: /about/
             </p>
         </div>
         <h5>Outside of work</h5>
-        <div style="display: inline; font-weight: normal;text-align: left; text-align: justify;" >
+        <div class="paragraph-wide">
             <p>
                 <ul>
                     <li>In my free time, I enjoy trail running, riding my bike, doing CrossFit, and bascially anything that allows me to stay active! Surfing and traveling have always been an important part of my life, and allowed me to spend time in some amazing countries such as Indonesia, Morocco, Peru, Australia, and Mexico. </li>
