@@ -34,7 +34,7 @@ image:
           line-height:1.4;
           margin-bottom: -0.0em;
           margin-left: 330px;
-          color: blue;          
+          color: blac;          
           margin: auto;
       }
       .title-display{
@@ -49,7 +49,7 @@ image:
           font-size: 20px;
           text-align: left;
           width: 300px;
-          color: green;
+          color: black;
           margin: auto;
       }
       .title-display{
