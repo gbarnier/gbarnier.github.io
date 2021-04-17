@@ -8,7 +8,7 @@ modified: " "
 share: true
 permalink: seismic-imaging
 image:
-  teaser: migration_commented.gif
+  teaser: wavefield.gif
 ---
 
 <h3>Seismic imaging: a 3-step process</h3>
