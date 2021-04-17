@@ -63,8 +63,8 @@ permalink: /geophysics/
         text-align:justify;
         font-size: 18px;
         margin-bottom: 0.5em;
-        width: 700px;
-        color: red;
+        width: 600px;
+        color: black;
     }
 }
 
@@ -91,11 +91,11 @@ permalink: /geophysics/
         font-size: 18px;
     }            
     .paragraph{
-        text-align:justify;
-        word-spacing: -2.5px; 
+        text-align: left;
+
         font-size: 18px;
         margin-bottom: 0.5em;
-        width: 290px;
+        width: 300px;
         color: black;
     }
 }
@@ -111,7 +111,8 @@ permalink: /geophysics/
     > Finally, most of the work presented in this website is the product of a 6-year <a href="/eg">joint effort</a> with my friend and colleague <a href="https://www.linkedin.com/in/ettore-biondi/">Ettore Biondi</a>, now a postdoctoral researcher at <a href="http://seismolab.caltech.edu/biondi_e.html" target="_blank">Caltech</a>. Our collaboration has been the most fruitful, stimulating, and efficient period in my life in terms of research. In 2019, Ettore and I won the award for <a href="https://sep.sites.stanford.edu/guillaume-barnier-receives-award-best-student-paper-presented-seg-2019-annual-meeting"><b>Best Student Paper</b></a> Presented at <a href="https://seg.org/About-SEG/Governance/Honors-and-Awards">SEG</a> Annual Meeting for our work on <a href="/papers/seg19.pdf" style="font-weight: normal" target="_blank">seismic velocity model building</a>.
 </p>
 
-<h3 style="margin-top: 2.0em;color: blue">Click on the icons below!</h3>
+<h3 style="margin-top: 2.0em;color: blue">Click on the icons below!<br/>
+⬇⬇⬇</h3>
 <body style="background-color: #F2F3F4; ">
     <br>
     <div class="tiles">
