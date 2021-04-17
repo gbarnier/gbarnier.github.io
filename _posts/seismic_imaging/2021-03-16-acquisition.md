@@ -45,7 +45,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 600px;
-        color: black;    
+        color: red;    
     }
 
 }
@@ -55,7 +55,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 300px;
-        color: black;    
+        color: blue;    
     }
     .fig{
         width: 400px;
