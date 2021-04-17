@@ -50,7 +50,7 @@ permalink: /about/
               width: 300px;
               text-align: left;
               margin-left: 0px;
-              color: green;
+              color: black;
             }
             .paragraph-wide{
               width: 300px;
