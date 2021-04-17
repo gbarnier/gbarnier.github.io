@@ -11,7 +11,6 @@ permalink: /about/
         <link type="text/css" rel="stylesheet" href="/css/about_style.css"/>
 
         <style>
-
         .paragraph-fig{
             width: 590px;
             text-align: justify;
@@ -24,12 +23,34 @@ permalink: /about/
           width: 200px;
           float: right;
           border: 2px solid black;
-        }            
-        @media screen and (max-width: 700px){
+        }         
+        @media screen and (max-width: 1000px) and (min-width: 400px){
+            .paragraph-fig{
+              width: 400px;
+              text-align: justify;
+              word-spacing: -1.5px;                            
+              margin-left: 0px;
+              color: black;
+            }
+            .paragraph-wide{
+              width: 600px;
+              text-align: justify;
+              text-justify: distribute;
+              word-spacing: -1.25px;
+
+            }  
+            .fig-wide{
+              width: 200px;
+              float: right;
+              border: 2px solid black;
+            }
+        }    
+        @media screen and (max-width: 400px){
             .paragraph-fig{
               width: 300px;
               text-align: left;
               margin-left: 0px;
+              color: green;
             }
             .paragraph-wide{
               width: 300px;
