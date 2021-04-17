@@ -24,26 +24,7 @@ permalink: /about/
           width: 200px;
           float: right;
           border: 2px solid black;
-        }         
-        @media screen and (max-width: 1500px) and (min-width: 700px){
-            .paragraph-fig{
-              width: 400px;
-              text-align: justify;
-              word-spacing: -1.5px;                            
-              margin-left: 0px;
-            }
-            .paragraph-wide{
-              width: 600px;
-              text-align: justify;
-              text-justify: distribute;
-              word-spacing: -1.25px;              
-            }  
-            .fig-wide{
-              width: 200px;
-              float: right;
-              border: 2px solid black;
-            }
-        }    
+        }            
         @media screen and (max-width: 700px){
             .paragraph-fig{
               width: 300px;
