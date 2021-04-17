@@ -72,7 +72,7 @@ permalink: /about/
     <body style="background-color: #F2F3F4;">
 
         <!-- <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/> -->
-        <h5>Geophysics</h5>
+        <h5><span style="font-size: 20px">🌎</span> Geophysics</h5>
         <!-- <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" style="width: 200px; float: right; border: 2px solid black;"/> -->
         <img src="{{ site.url }}/images/stairs_rio_c.png" alt="Guillaume's photo" class="fig-wide"/>
 
@@ -89,7 +89,7 @@ permalink: /about/
             </p>
         </div>
 
-        <h5>Machine Learning</h5>
+        <h5><span style="font-size: 20px">🖥️</span> Machine Learning</h5>
         <div class="paragraph-wide">
             <p>
                 <ul>
@@ -101,7 +101,7 @@ permalink: /about/
             </p>
         </div>
 
-        <h5>Financial Markets</h5>
+        <h5><span style="font-size: 20px">📈</span> Financial Markets</h5>
         <div class="paragraph-wide">
             <p>
                 <ul>
@@ -109,12 +109,12 @@ permalink: /about/
                 </ul>
             </p>
         </div>
-        <h5>Outside of work</h5>
+        <h5><span style="font-size: 25px">⛰️</span> Outside of Work</h5>
         <div class="paragraph-wide">
             <p>
                 <ul>
                     <li>In my free time, I enjoy trail running, riding my bike, doing CrossFit, and bascially anything that allows me to stay active! Surfing and traveling have always been an important part of my life, and allowed me to spend time in some amazing countries such as Indonesia, Morocco, Peru, Australia, and Mexico. </li>
-                    <li>And if you are wondering, I took that picture on the <a href="https://en.wikipedia.org/wiki/Escadaria_Selarón"> Escadaria Selarón</a> in Rio de Janeiro, Brazil.</li>
+                    <li>And if you are wondering, I took that picture on the <a href="https://en.wikipedia.org/wiki/Escadaria_Selarón"> Escadaria Selarón</a> in Rio de Janeiro, <span style="font-size: 25px">🇧🇷</span>.</li> 
                 </ul>
             </p>
         </div>
