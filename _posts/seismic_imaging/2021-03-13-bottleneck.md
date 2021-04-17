@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Limitation of conventional methods"
+title: "Current techniques are not good enough!"
 categories: geophysics
 excerpt: " "
 tag: Bottleneck
@@ -90,12 +90,14 @@ We now conduct the same experiment but starting with a lower-resolution and quit
 </p>
 
 <p>
-In the next section, I show how the algorithm I developed for my Ph.D. - referred to as full waveform inversion (FWIME) - mitigates this issue.
+In the next section, I show how the algorithm I developed for my Ph.D., referred to as full waveform inversion (FWIME), mitigates this issue.
 </p>
 
 <br/>
 
 <p>
-<span style="text-align:right; font-size: 18px"><a href="/migration"><-- <b><span style="color: red">PREVIOUS</span></b>: Migration</a></span>
-<span style="text-align:right; margin-left: 400px; font-size: 18px"><a href="/fwime"><b><span style="color: green">NEXT</span></b>: FWIME --> </a></span>
+<span style="float:left; font-size: 15px"><a href="/bottleneck"><b><span style="color: red"><-- PREVIOUS</span></b></a></span>
+<span style="float:right; font-size: 15px"><a href="/fwime"><b><span style="color: green">NEXT --></span></b> </a></span>
 </p>
+<br/>
+<br/>
