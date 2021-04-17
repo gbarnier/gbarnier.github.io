@@ -14,7 +14,7 @@ image:
 
 <style>
 .fig{
-    width: 600px;
+    width: 700px;
     margin-left: 80px;
 }
 .fig-data{
