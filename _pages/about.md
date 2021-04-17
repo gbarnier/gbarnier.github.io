@@ -89,7 +89,7 @@ permalink: /about/
             </p>
         </div>
 
-        <h5><span style="font-size: 20px">🖥️</span> Machine Learning</h5>
+        <h5><span style="font-size: 20px">🕹️</span> Machine Learning</h5>
         <div class="paragraph-wide">
             <p>
                 <ul>
