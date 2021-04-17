@@ -10,28 +10,26 @@ image:
 <head>
 <style>
      .p-display{
-         font-size: 20px;
+         font-size: 22px;
          text-align: justify;
-         font-family: Calibri;
-         width: 400px;
+         width: 800px;
          line-height:1.4;
          margin-bottom: -0.0em;
          word-spacing: -2.0px;    
          margin-left: 330px;
-         font-family: Plex Mono Thin;
+         font-family: Cormorant;
          margin: auto;
      }
      .title-display{
-        font-family: Calibri;
         font-size: 50px;
         text-align:center;
+        font-family: Cormorant;
      }     
 
     @media screen and (max-width: 1500px) and (min-width: 500px){
       .p-display {
           font-size: 20px;
           text-align: justify;
-          font-family: Calibri;
           width: 400px;
           line-height:1.4;
           margin-bottom: -0.0em;
@@ -55,7 +53,7 @@ image:
           margin: auto;
       }
       .title-display{
-         font-family: Calibri;
+
          font-size: 50px;
          text-align:left;
          margin-left: 50px;
