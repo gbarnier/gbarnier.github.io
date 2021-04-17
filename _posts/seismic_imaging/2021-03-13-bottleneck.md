@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Current techniques are not good enough!"
+title: "Why current techniques are not good enough"
 categories: geophysics
 excerpt: " "
 tag: Bottleneck
@@ -21,7 +21,7 @@ image:
 <h3>Seismic velocity estimation: the main bottleneck</h3>
 
 <p style="text-align:justify; font-size: 18px">
-As we saw in the <a href="/migration">previous sections</a>, seismic velocity model building techniques such as FWI can be very powerful. However, it turns out that building a good velocity model can be a very chellenging task. I see (at least) four main reasons for that:
+As we saw in the <a href="/migration">previous sections</a>, seismic velocity model building techniques such as FWI can be very powerful. However, it turns out that building a good velocity model can be a very difficult task. I see at least <b>4 main challenges</b> for that:
 
 <br/>
 
@@ -42,7 +42,7 @@ Finally, unlike most supervised deep learning problems, the computational cost o
 The most challenging issue comes from the fact that conventional seismic tomography (using reflection data) is a mathematically and numerically ill-posed problem. In other words, the quality of the estimated solution is contingent on already having a good initial guess and/or access to a certain type of seismic data which are either too costly - or impossible - to acquire. In fact, if the initial guess is too far from the true solution, most gradient-descent optimization schemes tend to recover non geologically realistic (and thus non-useful) models. From an optimization standpoint, this phenomenon can be explained by the presence of multiple spurious local minima within the loss function that is being minimized.
 </p>
 
-<h5>4. The Earth is flat...</h5>
+<h5>4. The Earth is flat<span style="font-size: 30px"> 😱</span></h5>
 <p style="text-align:justify; font-size: 18px">
 ... at least for scales we are considering in hydrocarbon exploration! Unlike computed tomography (x-ray imaging), the angular covergage for seismic acquisition is more limited because it is extremely difficult (and/or costly) to place sensors deep into the ground, such as vertical seismic profiling (<a href="https://en.wikipedia.org/wiki/Vertical_seismic_profile" target="_blank">VSP</a>). Hence, we are usually restricted to setting the receivers at the surface, thereby limiting our recordings to of either reflected waves or refracted energy (e.g., head waves, diving waves, etc.). For instance, such configuration may prevent us from recording energy coming from certain regions of the subsurface, thereby creating "shadow zones" where our velocity estimation is uncertain.
 </p>
@@ -63,7 +63,7 @@ For the sack of simplicity, let's use the same benchmark model shown in the prev
 
 <figure class="right">
   <img class="average" src="/images/fwi_marmousi_true_a.png" width="260"/>
-  <figcaption style="height: 1.0em; text-align:center; font-size: 18px; font-family: Calibri; color: black; margin-left: 0px">Model representing the true Earth</figcaption>
+  <figcaption style="height: 1.0em; text-align:center; font-size: 18px; font-family: Calibri; color: black; margin-left: 0px">True Earth</figcaption>
 </figure>
 
 <p style="text-align:justify; font-size: 18px">
@@ -82,7 +82,7 @@ We now conduct the same experiment but starting with a lower-resolution and quit
 
 <figure class="right">
   <img class="average" src="/images/fwi_marmousi_true_a.png" width="260"/>
-  <figcaption style="height: 1.0em; text-align:center; font-size: 18px; font-family: Calibri; color: black; margin-left: 0px">Model representing the true Earth</figcaption>
+  <figcaption style="height: 1.0em; text-align:center; font-size: 18px; font-family: Calibri; color: black; margin-left: 0px">True Earth</figcaption>
 </figure>
 
 <p>
@@ -90,7 +90,7 @@ We now conduct the same experiment but starting with a lower-resolution and quit
 </p>
 
 <p>
-In the next section, I show how the algorithm I developed for my Ph.D., referred to as full waveform inversion (FWIME), mitigates this issue.
+In the next section, I show how the algorithm I developed for my Ph.D., referred to as Full Waveform Inversion by Model Extension (FWIME), mitigates this issue. Let's have a look.
 </p>
 
 <br/>
