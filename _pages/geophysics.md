@@ -28,6 +28,7 @@ permalink: /geophysics/
     margin-bottom: -0.5em;
     color: black;
     font-size: 18px;
+    font-family: Georgia;
 }
 .paragraph{
     text-align: justify;
@@ -35,6 +36,7 @@ permalink: /geophysics/
     margin-bottom: 1.0em;
     width: 800px;
     color: black;
+    font-family: Georgia;
 }    
 
 @media screen and (max-width: 1000px) and (min-width: 700px){
