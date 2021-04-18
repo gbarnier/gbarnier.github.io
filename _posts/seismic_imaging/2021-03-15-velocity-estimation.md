@@ -17,8 +17,10 @@ image:
     text-align: justify;
     font-size: 18px;
     <!-- margin-bottom: 1.0em; -->
+    font-family: Georgia;
     width: 800px;
     color: black;
+
 }  
 .fig-data{
     width: 600px;
@@ -29,7 +31,7 @@ image:
     height: 1.0em;
     text-align: center;
     font-size: 18px;
-    font-family: Calibri;
+    font-family: Georgia;
     color: black;
     margin-left: -40px;
 }
@@ -40,7 +42,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 600px;
-        color: black;    
+        color: red;    
     }
 
 }
@@ -50,7 +52,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 300px;
-        color: black;    
+        color: blue;    
     }
     .fig{
         width: 400px;
@@ -60,7 +62,7 @@ image:
         height: 1.0em;
         text-align: left;
         font-size: 18px;
-        font-family: Calibri;
+        font-family: Georgia;
         color: black;
         margin-left: 50px;
     }          
