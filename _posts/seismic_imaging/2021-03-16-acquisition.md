@@ -26,7 +26,7 @@ image:
     height: 1.0em;
     text-align: center;
     font-size: 18px;
-    font-family: Calibri;
+    font-family: Georgia;
     color: black;
     margin-left: -40px;
 }
@@ -37,6 +37,8 @@ image:
     <!-- margin-bottom: 1.0em; -->
     width: 800px;
     color: black;
+    font-family: Georgia;
+
 }  
 
 @media screen and (max-width: 1000px) and (min-width: 700px){
@@ -45,7 +47,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 600px;
-        color: black;    
+        color: red;    
     }
 
 }
@@ -55,7 +57,7 @@ image:
         text-align: justify;
         font-size: 18px;
         width: 300px;
-        color: black;    
+        color: blue;    
     }
     .fig{
         width: 400px;
@@ -65,7 +67,6 @@ image:
         height: 1.0em;
         text-align: left;
         font-size: 18px;
-        font-family: Calibri;
         color: black;
         margin-left: 120px;
     }       
