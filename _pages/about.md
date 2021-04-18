@@ -25,7 +25,7 @@ permalink: /about/
         }        
         .fig-wide{
             margin-left: 20px;
-          width: 200px;
+          width: 250px;
           float: right;
           border: 2px solid black;
         }         
