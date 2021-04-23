@@ -16,6 +16,7 @@ image:
          line-height:1.2;
          margin-bottom: -3.5em;
          <!-- word-spacing: -1.5px;     -->
+         word-spacing: -5.0px;
          margin-left: 330px;
          <!-- font-family: Optima; -->
          font-family: Georgia;
@@ -51,7 +52,7 @@ image:
           font-size: 20px;
           text-align: left;
           width: 300px;
-          color: black;
+          color: green;
           margin: auto;
       }
       .title-display{
@@ -67,9 +68,9 @@ image:
 <body>
     <p class="title-display">Welcome!</p>
     <p class="p-display">
-    <span style="font-size: 35px">🇫🇷</span> I'm Guillaume, a French Ph.D. candidate in the Stanford Exploration Project (<a href="/sep">SEP</a>) research group within the Department of <a href="https://earth.stanford.edu/geophysics" target="_blank">Geophysics</a> at <a href="https://www.stanford.edu" target="_blank">Stanford University</a>. <br/><br/>
-    <span style="font-size: 30px">🌎</span>My <a href="/fwime"><b>thesis</b></a> work is geared towards developing new imaging <a href="/geophysics">algorithms</a> to create accurate maps of the Earth's subsurface using sound waves.<br/><br/>
-    <span style="font-size: 30px">🖥️</span>I am passionate about machine learning (especially reinforcement learning algorithms), scientific computing, numerical modeling, GPU programming, and applied mathematics. Above all that, I enjoy the excitement of tackling challenging scientific research problems. <br/><br/>
+    <span style="font-size: 35px">🇫🇷</span> My name is Guillaume, I'm a French Ph.D. candidate in the Stanford Exploration Project (<a href="/sep">SEP</a>) research group within the Department of <a href="https://earth.stanford.edu/geophysics" target="_blank">Geophysics</a> at <a href="https://www.stanford.edu" target="_blank">Stanford University</a>. <br/><br/>
+    <span style="font-size: 30px">🌎</span>My thesis work is geared towards developing new imaging <a href="/geophysics">algorithms</a> to create accurate maps of the Earth's subsurface using sound waves.<br/><br/>
+    <span style="font-size: 30px;">🖥️</span> I am passionate about machine learning (especially reinforcement learning algorithms), scientific computing, numerical modeling, GPU programming, and applied mathematics. Above all that, I enjoy the excitement of tackling challenging scientific research problems. <br/><br/>
     <span style="font-size: 30px">📄</span> Check out my <a href="/ml_projects"><b>Machine Learning</b></a> and <a href="/geophysics"><b>Geophysics</b></a> pages to learn more about my work!<br/><br/>
     <span style="font-size: 30px">🏞</span> Can you guess in which US National Park the above picture was taken? (hint: <a href="https://www.nps.gov/zion/index.htm" target="_blank">🗺️</a>)
     </p>
