@@ -67,7 +67,7 @@ image:
 <body>
     <p class="title-display">Welcome!</p>
     <p class="p-display">
-    <span style="font-size: 35px">🇫🇷</span> My name is Guillaume. I'm a French Ph.D. candidate in the Stanford Exploration Project (<a href="/sep">SEP</a>) research group within the Department of <a href="https://earth.stanford.edu/geophysics" target="_blank">Geophysics</a> at <a href="https://www.stanford.edu" target="_blank">Stanford University</a>. <br/><br/>
+    <span style="font-size: 35px">🇫🇷</span> I'm Guillaume, a French Ph.D. candidate in the Stanford Exploration Project (<a href="/sep">SEP</a>) research group within the Department of <a href="https://earth.stanford.edu/geophysics" target="_blank">Geophysics</a> at <a href="https://www.stanford.edu" target="_blank">Stanford University</a>. <br/><br/>
     <span style="font-size: 30px">🌎</span>My <a href="/fwime"><b>thesis</b></a> work is geared towards developing new imaging <a href="/geophysics">algorithms</a> to create accurate maps of the Earth's subsurface using sound waves.<br/><br/>
     <span style="font-size: 30px">🖥️</span>I am passionate about machine learning (especially reinforcement learning algorithms), scientific computing, numerical modeling, GPU programming, and applied mathematics. Above all that, I enjoy the excitement of tackling challenging scientific research problems. <br/><br/>
     <span style="font-size: 30px">📄</span> Check out my <a href="/ml_projects"><b>Machine Learning</b></a> and <a href="/geophysics"><b>Geophysics</b></a> pages to learn more about my work!<br/><br/>
