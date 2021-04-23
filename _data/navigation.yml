@@ -5,6 +5,9 @@
   excerpt:
   image:
 
+- title: Skills
+  url: /skills/
+
 - title: Machine Learning
   url: /ml_projects/
   
