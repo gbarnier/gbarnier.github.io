@@ -13,6 +13,7 @@ permalink: /skills/
             text-align: justify;
             font-family: Georgia;
             font-size: 18px;
+            word-spacing: -0.5px;
         }        
         .paragraph-list{
             width: 700px;
@@ -28,24 +29,25 @@ permalink: /skills/
 
 <h2>Five skills that define me</h2>
 
-<h4>1. Highly adaptable skillset</h4>
+<h4>1. Highly adaptable</h4>
 
 <p class="paragraph-wide">
-Throughout my professional life, I proved my ability to quickly adapt and succeed in a broad range of diverse challenging environments. Here's why:
+I designed my professional path to always be in a position where I could satisfy my curiosity, my passion to learn, and desire to encounter new situations. By doing so, I also proved my ability to quickly adapt and succeed in a broad range of diverse challenging environments. Here are some examples:
 
 <ul>
 <li class="paragraph-list">Earned my MSc in Electrical Engineering from Télécom Paris (2007).</li>
+<li class="paragraph-list">Traveled on my own through remote archipelagos in Indonesia for 7 months to surf some of the best waves in the world (2007).</li>
 <li class="paragraph-list">Worked in financial markets for J.P. Morgan in London, selling and buying interest-rate derivative products for hedge funds throughout the 2008 financial crisis (2007-2010).</li>
 <li class="paragraph-list">Obtained a scholarship to pursue a thesis-based MSc in Geophysics from the Colorado School of Mines (2011-2013), where I maintained a 4.0 GPA.</li>
 <li class="paragraph-list">Was accepted to the Geophysics Ph.D. program at Stanford University (2013).</li>
-<li class="paragraph-list">Won the award for Best Student Paper Presented at SEG 2019 Annual Meeting for my Ph.D. thesis work.</li>
+<li class="paragraph-list">Won the award for <a href="https://sep.sites.stanford.edu/guillaume-barnier-receives-award-best-student-paper-presented-seg-2019-annual-meeting">Best Student Paper</a> Presented at SEG 2019 Annual Meeting for my Ph.D. <a href="/fwime">thesis work</a>.</li>
 <li class="paragraph-list">Developed expertise in Machine Learning and led a <a href="/ctp-project">Deep Learning project</a> in collaboration with the Stanford School of Medicine focusing on stroke imaging (2020-2021).</li>
 </ul>
 </p>
 
 <h4>2. Ability to become an expert</h4>
 <p class="paragraph-wide">
-I enjoy tackling new problems with practical applications and putting all my effort into becoming the best I can be to achieve my goals. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
+I enjoy tackling new quantitative and technical problems that have practical applications. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
 </p>
 
 <h4>3. Not being scared when nothing works</h4>
