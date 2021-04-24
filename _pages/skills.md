@@ -49,7 +49,7 @@ I designed my professional path to always be in a position where I could satisfy
 
 <h4>2. Ability to become an expert</h4>
 <p class="paragraph-wide">
-I enjoy tackling new quantitative and technical problems that have practical applications. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
+I enjoy tackling new quantitative and technical problems that have a business impact. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
 </p>
 
 <h4>3. Not being scared when nothing works</h4>
