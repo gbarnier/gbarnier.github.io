@@ -36,7 +36,7 @@ I designed my professional path to always be in a position where I could satisfy
 
 <ul>
 <li class="paragraph-list">Earned my MSc in Electrical Engineering from Télécom Paris (2007).</li>
-<li class="paragraph-list">Traveled on my own through remote archipelagos in Indonesia for 7 months to surf some of the best waves in the world (2007).</li>
+<li class="paragraph-list">Traveled on my own through <a href="https://en.wikipedia.org/wiki/Mentawai_Islands_Regency">remote archipelagos</a> in Indonesia for 7 months to surf some of the best waves in the world (2007).</li>
 <li class="paragraph-list">Worked in financial markets for J.P. Morgan in London, selling and buying interest-rate derivative products for hedge funds throughout the 2008 financial crisis (2007-2010).</li>
 <li class="paragraph-list">Obtained a scholarship to pursue a thesis-based MSc in Geophysics from the Colorado School of Mines (2011-2013), where I maintained a 4.0 GPA.</li>
 <li class="paragraph-list">Was accepted to the Geophysics Ph.D. program at Stanford University (2013).</li>
@@ -44,6 +44,8 @@ I designed my professional path to always be in a position where I could satisfy
 <li class="paragraph-list">Developed expertise in Machine Learning and led a <a href="/ctp-project">Deep Learning project</a> in collaboration with the Stanford School of Medicine focusing on stroke imaging (2020-2021).</li>
 </ul>
 </p>
+
+
 
 <h4>2. Ability to become an expert</h4>
 <p class="paragraph-wide">
