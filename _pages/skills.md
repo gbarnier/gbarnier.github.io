@@ -26,7 +26,7 @@ permalink: /skills/
 
 <body>
 
-<h2>My skills in 5 points</h2>
+<h2>Five skills that define me</h2>
 
 <h4>1. Highly adaptable skillset</h4>
 
