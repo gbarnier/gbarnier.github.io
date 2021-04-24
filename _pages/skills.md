@@ -43,7 +43,7 @@ Throughout my professional life, I proved my ability to quickly adapt and succee
 </ul>
 </p>
 
-<h4>2. Ability to develop expertize</h4>
+<h4>2. Ability to become an expert</h4>
 <p class="paragraph-wide">
 I enjoy tackling new problems with practical applications and putting all my effort into becoming the best I can be to achieve my goals. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
 </p>
