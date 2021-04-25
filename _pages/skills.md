@@ -62,7 +62,7 @@ From a research perspective, I learned how to deal with uncomfortable and challe
 This is the only approach to move forward in research (and I guess in life). I am not afraid to admit when I don't know (which occurs most of the time), and I try to find ways to challenge my ideas and detect all the possible flaws in my reasoning. This approach can be mentally exhausting (it hurts to realize you are totally wrong most of the time) but I believe it is very helpful to achieve anything useful.
 </p>
 
-<h4>5. Being a solid team mate</h4>
+<h4>5. Understanding the value of team work</h4>
 <p class="paragraph-wide">
 Fitting within an efficient team and contributing to its success is an amazing feeling and a very powerful tool. In fact, most of my professional achievements - especially my Ph.D. - could not have been done without teamwork, as I explain <a href="/eg">here</a>.
 </p>
