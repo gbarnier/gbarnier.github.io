@@ -32,7 +32,7 @@ permalink: /skills/
 <h4>1. Highly adaptable</h4>
 
 <p class="paragraph-wide">
-I designed my professional path to always be in a position where I could satisfy my curiosity, my passion to learn, and desire to encounter new situations. By doing so, I also proved my ability to quickly adapt and succeed in a broad range of diverse challenging environments. Here are some examples:
+I designed my professional path in a way that allowed me to satisfy my curiosity, my passion to learn, and desire to encounter new environments. By doing so, I also proved my ability to quickly adapt and succeed in a broad range of diverse challenging conditions. Here are some examples:
 
 <ul>
 <li class="paragraph-list">Earned my MSc in Electrical Engineering from Télécom Paris (2007).</li>
@@ -45,11 +45,9 @@ I designed my professional path to always be in a position where I could satisfy
 </ul>
 </p>
 
-
-
 <h4>2. Ability to become an expert</h4>
 <p class="paragraph-wide">
-I enjoy tackling new quantitative and technical problems that have a business impact. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
+I enjoy tackling new quantitative and technical problems that have practical applications. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
 </p>
 
 <h4>3. Not being scared when nothing works</h4>
@@ -62,7 +60,7 @@ From a research perspective, I learned how to deal with uncomfortable and challe
 This is the only approach to move forward in research (and I guess in life). I am not afraid to admit when I don't know (which occurs most of the time), and I try to find ways to challenge my ideas and detect all the possible flaws in my reasoning. This approach can be mentally exhausting (it hurts to realize you are totally wrong most of the time) but I believe it is very helpful to achieve anything useful.
 </p>
 
-<h4>5. Understanding the value of team work</h4>
+<h4>5. Being a solid team mate</h4>
 <p class="paragraph-wide">
 Fitting within an efficient team and contributing to its success is an amazing feeling and a very powerful tool. In fact, most of my professional achievements - especially my Ph.D. - could not have been done without teamwork, as I explain <a href="/eg">here</a>.
 </p>
