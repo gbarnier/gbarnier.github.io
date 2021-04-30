@@ -34,7 +34,7 @@ permalink: /skills/
 
 <h2>Five skills that define me</h2>
 <ol type = "1">
-<li class="skill-list"><a href="#skill1">Highly adaptable</a></li>
+<li class="skill-list"><a href="#skill1">Highly adaptable skillset</a></li>
 <li class="skill-list"><a href="#skill2">Ability to become an expert</a></li>
 <li class="skill-list"><a href="#skill3">Not being scared when nothing works</a></li>
 <li class="skill-list"><a href="#skill4">Accepting to be wrong</a></li>
@@ -43,7 +43,7 @@ permalink: /skills/
 
 <!-- <a href="#skill5">Link Text</a> -->
 
-<h4>1. <a name="skill1">Highly adaptable</a></h4>
+<h4>1. <a name="skill1">Highly adaptable skillset</a></h4>
 
 <p class="paragraph-wide">
 I designed my professional path in a way that allowed me to satisfy my curiosity, my passion to learn, and desire to encounter new environments. By doing so, I also proved my ability to quickly adapt and succeed in a broad range of diverse challenging conditions. Here are some examples:
