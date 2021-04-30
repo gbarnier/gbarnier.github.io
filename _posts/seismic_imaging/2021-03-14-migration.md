@@ -60,7 +60,7 @@ In complex geological scenarios, seismic images are highly sensitive to the accu
 <br/>
 
 <p>
-<span style="float:left; font-size: 15px"><a href="/velocity-estimaton"><b><span style="color: red"><-- PREVIOUS</span></b></a></span>
+<span style="float:left; font-size: 15px"><a href="/velocity-estimation"><b><span style="color: red"><-- PREVIOUS</span></b></a></span>
 <span style="float:right; font-size: 15px"><a href="/bottleneck"><b><span style="color: green">NEXT --></span></b> </a></span>
 </p>
 <br/>
