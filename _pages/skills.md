@@ -61,7 +61,7 @@ I designed my professional path in a way that allowed me to satisfy my curiosity
 
 <h4>2. <a name="skill2">Ability to become an expert</a></h4>
 <p class="paragraph-wide">
-I enjoy tackling new quantitative and technical problems that have practical applications. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to a success.
+I enjoy tackling new quantitative and technical problems that have practical applications. To achieve my goals, I fully commit to become the best I can be. My detailed-oriented mindset and competitiveness drive me to go in depth on all topics/activities that I focus on. From research problems to trail-running races, I enjoy the training and preparation that may lead to success.
 </p>
 
 <h4>3. <a name="skill3">Not being scared when nothing works</a></h4>
