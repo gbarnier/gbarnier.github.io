@@ -1,8 +1,13 @@
 ---
 layout: article
 title: Curriculum Vitae
+tag: CV
+share: true
 permalink: /cv/
+
 ---
+
+
 
 <body style="background-color: #F2F3F4;">
 <lu>
