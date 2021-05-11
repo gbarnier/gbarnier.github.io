@@ -38,7 +38,7 @@ permalink: /skills/
 <li class="skill-list"><a href="#skill2">Ability to become an expert</a></li>
 <li class="skill-list"><a href="#skill3">Not being scared when nothing works</a></li>
 <li class="skill-list"><a href="#skill4">Accepting to be wrong</a></li>
-<li class="skill-list"><a href="#skill5">Being a solid team mate</a></li>
+<li class="skill-list"><a href="#skill5">Being a solid teammate</a></li>
 </ol>
 
 <!-- <a href="#skill5">Link Text</a> -->
@@ -75,7 +75,7 @@ This is the only approach to move forward in research (and I guess in life). I a
 </p>
 
 
-<h4>5. <a name="skill5">Being a solid team mate</a></h4>
+<h4>5. <a name="skill5">Being a solid teammate</a></h4>
 <p class="paragraph-wide">
 Fitting within an efficient team and contributing to its success is an amazing feeling and a very powerful tool. In fact, most of my professional achievements - especially my Ph.D. - could not have been done without teamwork, as I explain <a href="/eg">here</a>.
 </p>
