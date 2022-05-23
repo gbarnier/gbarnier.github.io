@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-tag: Guillaume's page
+tag: Home
 title:
 image:
   feature: zion_c.png
